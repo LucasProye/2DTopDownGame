@@ -1,0 +1,2323 @@
+fileFormatVersion: 2
+guid: e895648dde633804a85b16c23a37f233
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97818dd0821e34469131e23bdf703ca
+      internalID: 1571187001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a746294c44cce6446a209d8cf9d68f7f
+      internalID: -193610521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a458b3eae9eff4449a7fa9988ac197a9
+      internalID: 1668684649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f35ab06d7a3234b8265ee4d174a89e
+      internalID: -468003376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_4
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59456dd5bb398a441b96d1cf8cc96992
+      internalID: -849393729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_5
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a4befcd7ab9e6489aa561bd4e4bcd3
+      internalID: -1497445513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_6
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca5688fd91326b4c9abf9c65d510dad
+      internalID: -723054977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_7
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3fd286ce4676a44ba9281039f8b06a
+      internalID: 851809338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_8
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7680a735a6c3e4e80a6006d0f427df
+      internalID: -1189411521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_9
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e37e0a8dd141fe4cb414075f1718b94
+      internalID: -1676412683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_10
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6b282b511862045a3b7057d732bf57
+      internalID: 755539542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_11
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5a2887299b9a748bcbf628833820a1
+      internalID: -1674483645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_12
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdacce61c31d3a4cabd9e402301f4f6
+      internalID: -500280751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_13
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c793e722da869ed4aa26fab8cac9c9c5
+      internalID: 2117399991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_14
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b2090e3f7e8b84d987d484910bb002
+      internalID: -542414095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_15
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8edad16476625447ba27f5bf97304a4
+      internalID: -381780822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_16
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f01c669018ea6489924d1b8a65780c
+      internalID: 1517449915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_17
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a2b4e4d957c614aadba8c7fabc9d47
+      internalID: 956223626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_18
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2d0b03c84bb86449010367dec5f957
+      internalID: -605468169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_19
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c599f9482c8d0c4ab9e0f5c1119d79f
+      internalID: 1972903387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_20
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200c0cb643fed794d991a80fed5665c3
+      internalID: 337406225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_21
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b72e4e5b56e70342aa2857c0118cd6f
+      internalID: 1118385081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_22
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2902d74a27c684c44a6659c0876b28b9
+      internalID: -755458924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_23
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3120ac7722002499cfd8decb87af29
+      internalID: 193556300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_24
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126098885b640f940959f35d6995fcca
+      internalID: -844174178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_25
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0614a41e644b5eb4b85a72a7b1301002
+      internalID: -543462086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_26
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3c8258626e1824b8f4302d054b7040
+      internalID: -2116754560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_27
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a50728e64fbb364982005e076d15beb
+      internalID: 1341283017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_28
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9cef98d7f594d045b1221b4b1029da3
+      internalID: -206654349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_29
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95272e84bbc6dcd4d8b387b2fdc836e9
+      internalID: -1050062992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_30
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83ac7e5ab16c654582712c45cd434ea
+      internalID: 760821162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_31
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4a7823a7d37c944895a79c298d8a21
+      internalID: -103231014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_32
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc58ed1fda3d4e438799b38dfa8e43a
+      internalID: 728547264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_33
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1441be1d5049b8b4a9a0aed2ea1b10a2
+      internalID: 1490406820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_34
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c58a0424c90c248b6b801a2d3b6456
+      internalID: 643893347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_35
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e7e952d74681542a6a3f488b497dbb
+      internalID: -58874708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_36
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938e9641d9f39284a91828f0ea892398
+      internalID: 1121220020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_37
+      rect:
+        serializedVersion: 2
+        x: 2257
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0daf76651ef380b43acd0b53907eeedd
+      internalID: 173328399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_38
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889b81e078f51864082c708346e58209
+      internalID: 1891656867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_39
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a34847b012213240967ffe20b38bf24
+      internalID: -1176133704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_40
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8cd1fbf7a5bf440a3c803afd534f2c
+      internalID: -1926770238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_41
+      rect:
+        serializedVersion: 2
+        x: 2501
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70c78978752f61449370259d3ce8150
+      internalID: -1296723368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_42
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05277bb74b2bab64f9aac3342a58c7c7
+      internalID: 1402267501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_43
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f0a8e6a9f227142852a496c481ee47
+      internalID: 1469443149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_44
+      rect:
+        serializedVersion: 2
+        x: 2684
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e425c4f87d88446bee393a05223072
+      internalID: 1801523654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_45
+      rect:
+        serializedVersion: 2
+        x: 2745
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f8d8651a055e546982e616207a5ede
+      internalID: -759634460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_46
+      rect:
+        serializedVersion: 2
+        x: 2806
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba8cfd3486d92b4b9f0d528fc5e7066
+      internalID: -1394361935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_47
+      rect:
+        serializedVersion: 2
+        x: 2867
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a72e0cd34c4304a844691dea51095e
+      internalID: 1649030724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_48
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90392b792cf47c94eb7167036fdc8b8f
+      internalID: -2068652281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_49
+      rect:
+        serializedVersion: 2
+        x: 2989
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d36f23ca647c1944a02aa5cf6eea465
+      internalID: -1888639365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_50
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd5fbc1e4383fc46b92665c54c859af
+      internalID: -488422848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_51
+      rect:
+        serializedVersion: 2
+        x: 3111
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6500b838297f394b8514d82b5da5a97
+      internalID: -1559040117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_52
+      rect:
+        serializedVersion: 2
+        x: 3172
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6b52772a9317342a0235d0bac695a4
+      internalID: -908920342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_53
+      rect:
+        serializedVersion: 2
+        x: 3233
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c53617fe0712440802a1061d7e82c4
+      internalID: 1458556598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_54
+      rect:
+        serializedVersion: 2
+        x: 3294
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0052abe953ad20245a50af03747a812d
+      internalID: 1064603331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_55
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a2f31c8eb9ebc4db55cf5a6f1bd300
+      internalID: 2124391114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_56
+      rect:
+        serializedVersion: 2
+        x: 3416
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f6c7339c940104a94f9a2cdc8ce92a
+      internalID: -1169867257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_57
+      rect:
+        serializedVersion: 2
+        x: 3477
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d735f2d45bd434c894a4cd9f1810f7
+      internalID: -794259238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_58
+      rect:
+        serializedVersion: 2
+        x: 3538
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46898927b04ffef419eba1b4e19e36c4
+      internalID: -1041484924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_59
+      rect:
+        serializedVersion: 2
+        x: 3599
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e373629f0c8ce49be778b12cf04e69
+      internalID: -1475265210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_60
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dff0be7b4d50eb478dba7b2e45b5c4a
+      internalID: 532746654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_61
+      rect:
+        serializedVersion: 2
+        x: 3721
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234d3393a816753469d544e7aa8ccdc6
+      internalID: 18921780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_62
+      rect:
+        serializedVersion: 2
+        x: 3782
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0561a6f7cb27e6345a17b1b35cfc8b53
+      internalID: -1205788160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_63
+      rect:
+        serializedVersion: 2
+        x: 3843
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01984be0e137e3d48ae4032c0de3a2bd
+      internalID: -543786602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_64
+      rect:
+        serializedVersion: 2
+        x: 3904
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae2f77055fc6004bb2a2efdba22705e
+      internalID: -1435563584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_65
+      rect:
+        serializedVersion: 2
+        x: 3965
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c701a65a3106f114aaa7003d24dcc0cc
+      internalID: 1996794471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_66
+      rect:
+        serializedVersion: 2
+        x: 4026
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c65bc6b65722014fbbfb2895465cde9
+      internalID: 1799824671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_67
+      rect:
+        serializedVersion: 2
+        x: 4087
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968fd2a89dd8d924e830aa80e9b1c265
+      internalID: 1085831796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_68
+      rect:
+        serializedVersion: 2
+        x: 4148
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c83123df70cef4497f723cb5ebcd08
+      internalID: 1978261825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_69
+      rect:
+        serializedVersion: 2
+        x: 4209
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f65c2ed6210994ab6ea4d9236c3b0e
+      internalID: -1623419440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_70
+      rect:
+        serializedVersion: 2
+        x: 4270
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497b73bc3db2cd34095f6f3606a70155
+      internalID: 1758393567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_71
+      rect:
+        serializedVersion: 2
+        x: 4331
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b64819502acdd24282264145a8d2e35
+      internalID: -462216714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_72
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6473f7da83660224f99decfc1c53a752
+      internalID: -1021101460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_73
+      rect:
+        serializedVersion: 2
+        x: 4453
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe42af49f070d8646b26b7934d6e3cb7
+      internalID: -383572394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_74
+      rect:
+        serializedVersion: 2
+        x: 4514
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cce218d35937e0448ee7d023a503675
+      internalID: 618158836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_75
+      rect:
+        serializedVersion: 2
+        x: 4575
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cea5fd73307e8141aba76373d9ac048
+      internalID: -1036345163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_76
+      rect:
+        serializedVersion: 2
+        x: 4636
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab4de1d32b79464dbfcfac09c083165
+      internalID: 1886461640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_77
+      rect:
+        serializedVersion: 2
+        x: 4697
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a03add2801dec2479445aaab14cc83e
+      internalID: -1106530401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_78
+      rect:
+        serializedVersion: 2
+        x: 4758
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c170d87a9fbb024c9c5925ff43af3c6
+      internalID: 1778543122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_79
+      rect:
+        serializedVersion: 2
+        x: 4819
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3faa19b2b524f40843369954242643
+      internalID: 1113619091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_80
+      rect:
+        serializedVersion: 2
+        x: 4880
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55dae30ff2b96b4597e354be8dcfa3a
+      internalID: -850254209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_81
+      rect:
+        serializedVersion: 2
+        x: 4941
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c4f7aa3df23784aa8ea522a5a7e32b
+      internalID: 2050848930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_82
+      rect:
+        serializedVersion: 2
+        x: 5002
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e2a879df3a92b449ba882499429a93
+      internalID: -1237245948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_83
+      rect:
+        serializedVersion: 2
+        x: 5063
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38685fb7407d7c49a6edcfeb479ba19
+      internalID: -1578169994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_84
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21d3690894ec6d4ab36d46e2b6fe28a
+      internalID: -164126994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_85
+      rect:
+        serializedVersion: 2
+        x: 5185
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b925d6f652e77f449d580386b85be67
+      internalID: 1454243601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_86
+      rect:
+        serializedVersion: 2
+        x: 5246
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c5a36a0faf49d478d8ce931ac823ca
+      internalID: 257805373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_87
+      rect:
+        serializedVersion: 2
+        x: 5307
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05af8406d33e28946b37fa9b9a60d84b
+      internalID: -1140655270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_88
+      rect:
+        serializedVersion: 2
+        x: 5368
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed4e315533b4d2408205edf00440b2a
+      internalID: 1288920810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_89
+      rect:
+        serializedVersion: 2
+        x: 5429
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce5e4e681996fc4db71c9a97f8e3304
+      internalID: 839419661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_90
+      rect:
+        serializedVersion: 2
+        x: 5490
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901fd73275da40c40947114b07cc28d0
+      internalID: 1762012626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_91
+      rect:
+        serializedVersion: 2
+        x: 5551
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4f3dac73c02e345a0c56ef368ca48b
+      internalID: -347317028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_92
+      rect:
+        serializedVersion: 2
+        x: 5612
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f04037089f2b34497cbf27477fe288
+      internalID: -468192995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_93
+      rect:
+        serializedVersion: 2
+        x: 5673
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a316a3f4945b2d74e9afbd2fbf95a646
+      internalID: -709203562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_94
+      rect:
+        serializedVersion: 2
+        x: 5734
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e518aa45261a3df4da62ab25230d1ef0
+      internalID: 44399895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_95
+      rect:
+        serializedVersion: 2
+        x: 5795
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8abb5a18a58f0143b04e9fa34c7b4e0
+      internalID: -1627982353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_96
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244ce56691093ce4880e8dfb580d00ea
+      internalID: 2088448422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_97
+      rect:
+        serializedVersion: 2
+        x: 5917
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1b1aefef5aa1d4ab3193404cdca13e
+      internalID: -621133661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_98
+      rect:
+        serializedVersion: 2
+        x: 5978
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768b421375713914997ead8896b8baa6
+      internalID: -1594477112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Waste_strip100_99
+      rect:
+        serializedVersion: 2
+        x: 6039
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d80a4ab671932a4e9594bc3950c366f
+      internalID: 283119943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Toxic Waste_strip100_11: -1674483645
+      Toxic Waste_strip100_44: 1801523654
+      Toxic Waste_strip100_27: 1341283017
+      Toxic Waste_strip100_62: -1205788160
+      Toxic Waste_strip100_89: 839419661
+      Toxic Waste_strip100_6: -723054977
+      Toxic Waste_strip100_57: -794259238
+      Toxic Waste_strip100_80: -850254209
+      Toxic Waste_strip100_82: -1237245948
+      Toxic Waste_strip100_86: 257805373
+      Toxic Waste_strip100_9: -1676412683
+      Toxic Waste_strip100_64: -1435563584
+      Toxic Waste_strip100_18: -605468169
+      Toxic Waste_strip100_25: -543462086
+      Toxic Waste_strip100_8: -1189411521
+      Toxic Waste_strip100_97: -621133661
+      Toxic Waste_strip100_60: 532746654
+      Toxic Waste_strip100_23: 193556300
+      Toxic Waste_strip100_7: 851809338
+      Toxic Waste_strip100_93: -709203562
+      Toxic Waste_strip100_34: 643893347
+      Toxic Waste_strip100_79: 1113619091
+      Toxic Waste_strip100_95: -1627982353
+      Toxic Waste_strip100_88: 1288920810
+      Toxic Waste_strip100_75: -1036345163
+      Toxic Waste_strip100_28: -206654349
+      Toxic Waste_strip100_85: 1454243601
+      Toxic Waste_strip100_16: 1517449915
+      Toxic Waste_strip100_36: 1121220020
+      Toxic Waste_strip100_94: 44399895
+      Toxic Waste_strip100_14: -542414095
+      Toxic Waste_strip100_52: -908920342
+      Toxic Waste_strip100_68: 1978261825
+      Toxic Waste_strip100_72: -1021101460
+      Toxic Waste_strip100_10: 755539542
+      Toxic Waste_strip100_71: -462216714
+      Toxic Waste_strip100_54: 1064603331
+      Toxic Waste_strip100_66: 1799824671
+      Toxic Waste_strip100_70: 1758393567
+      Toxic Waste_strip100_77: -1106530401
+      Toxic Waste_strip100_76: 1886461640
+      Toxic Waste_strip100_98: -1594477112
+      Toxic Waste_strip100_49: -1888639365
+      Toxic Waste_strip100_58: -1041484924
+      Toxic Waste_strip100_2: 1668684649
+      Toxic Waste_strip100_24: -844174178
+      Toxic Waste_strip100_65: 1996794471
+      Toxic Waste_strip100_46: -1394361935
+      Toxic Waste_strip100_55: 2124391114
+      Toxic Waste_strip100_47: 1649030724
+      Toxic Waste_strip100_84: -164126994
+      Toxic Waste_strip100_33: 1490406820
+      Toxic Waste_strip100_15: -381780822
+      Toxic Waste_strip100_91: -347317028
+      Toxic Waste_strip100_1: -193610521
+      Toxic Waste_strip100_39: -1176133704
+      Toxic Waste_strip100_96: 2088448422
+      Toxic Waste_strip100_90: 1762012626
+      Toxic Waste_strip100_13: 2117399991
+      Toxic Waste_strip100_3: -468003376
+      Toxic Waste_strip100_43: 1469443149
+      Toxic Waste_strip100_22: -755458924
+      Toxic Waste_strip100_61: 18921780
+      Toxic Waste_strip100_45: -759634460
+      Toxic Waste_strip100_99: 283119943
+      Toxic Waste_strip100_26: -2116754560
+      Toxic Waste_strip100_31: -103231014
+      Toxic Waste_strip100_74: 618158836
+      Toxic Waste_strip100_67: 1085831796
+      Toxic Waste_strip100_87: -1140655270
+      Toxic Waste_strip100_63: -543786602
+      Toxic Waste_strip100_83: -1578169994
+      Toxic Waste_strip100_4: -849393729
+      Toxic Waste_strip100_19: 1972903387
+      Toxic Waste_strip100_17: 956223626
+      Toxic Waste_strip100_51: -1559040117
+      Toxic Waste_strip100_56: -1169867257
+      Toxic Waste_strip100_29: -1050062992
+      Toxic Waste_strip100_92: -468192995
+      Toxic Waste_strip100_30: 760821162
+      Toxic Waste_strip100_53: 1458556598
+      Toxic Waste_strip100_81: 2050848930
+      Toxic Waste_strip100_21: 1118385081
+      Toxic Waste_strip100_78: 1778543122
+      Toxic Waste_strip100_69: -1623419440
+      Toxic Waste_strip100_37: 173328399
+      Toxic Waste_strip100_0: 1571187001
+      Toxic Waste_strip100_32: 728547264
+      Toxic Waste_strip100_41: -1296723368
+      Toxic Waste_strip100_59: -1475265210
+      Toxic Waste_strip100_73: -383572394
+      Toxic Waste_strip100_40: -1926770238
+      Toxic Waste_strip100_5: -1497445513
+      Toxic Waste_strip100_20: 337406225
+      Toxic Waste_strip100_12: -500280751
+      Toxic Waste_strip100_38: 1891656867
+      Toxic Waste_strip100_35: -58874708
+      Toxic Waste_strip100_50: -488422848
+      Toxic Waste_strip100_42: 1402267501
+      Toxic Waste_strip100_48: -2068652281
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
