@@ -12,7 +12,7 @@ public class Coins : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
-            _score ++;
+            _score += 1;
             _scoring.text = "" + _score;
             Destroy(gameObject);
         }
