@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 10397
+  controlID: 94
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 10398
+  controlID: 95
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -417,9 +417,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.2288928, y: -16.499048, z: -1.0077263}
+    m_Target: {x: 5.761594, y: -18.840302, z: -1.0633179}
     speed: 2
-    m_Value: {x: -2.2288928, y: -16.499048, z: -1.0077263}
+    m_Value: {x: 5.761594, y: -18.840302, z: -1.0633179}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -530,6 +530,7 @@ MonoBehaviour:
     - {fileID: 7471256740093030747, guid: 00fb483a4157c0a41a7548330b7b9d29, type: 2}
     - {fileID: -5355211590019515434, guid: 0f01b1df387acec44865bbfe2991a2cd, type: 2}
     - {fileID: -7359685527036884878, guid: b7bd3cb7b05d74746b933883a3ea5a9f, type: 2}
+    - {fileID: 4034780382841926878, guid: d3998c843448636408281ba8bbb8469e, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.8947368
       e01: 0
@@ -579,10 +580,26 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: b7bd3cb7b05d74746b933883a3ea5a9f, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: d3998c843448636408281ba8bbb8469e, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -7359685527036884878, guid: b7bd3cb7b05d74746b933883a3ea5a9f, type: 2}
+  - m_Target: {fileID: 4034780382841926878, guid: d3998c843448636408281ba8bbb8469e, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -619,7 +636,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 10399
+  controlID: 96
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -713,22 +730,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Graphics/Death Mission/Zombie
+    - Assets/Graphics/Death Mission/Hud
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Graphics/Death Mission/Zombie
+  - Assets/Graphics/Death Mission/Hud
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\lucas\Documents\GitHub\2DTopDownGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 70}
-    m_SelectedIDs: 6a770000
-    m_LastClickedID: 30570
-    m_ExpandedIDs: 000000009e750000a0750000a2750000a475000000ca9a3b
+    m_SelectedIDs: 18780000
+    m_LastClickedID: 30744
+    m_ExpandedIDs: 0000000010780000127800001478000016780000187800001a7800001c78000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -756,7 +773,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009e750000a0750000a2750000a475000000ca9a3b
+    m_ExpandedIDs: 0000000010780000127800001478000016780000187800001a7800001c780000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -781,8 +798,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: d4eafeff
-    m_LastClickedInstanceID: -70956
+    m_SelectedInstanceIDs: 18780000
+    m_LastClickedInstanceID: 30744
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 8a750000a0870000
     m_RenameOverlay:
@@ -808,7 +825,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 180}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 188
@@ -869,8 +886,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d4eafeff
-      m_LastClickedID: -70956
+      m_SelectedIDs: 18780000
+      m_LastClickedID: 0
       m_ExpandedIDs: 0cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
