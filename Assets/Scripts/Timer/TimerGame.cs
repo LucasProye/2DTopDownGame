@@ -15,6 +15,7 @@ public class TimerGame : MonoBehaviour
     void Start()
     {
         _timerOn = true;
+        _gm = GetComponent<GameManager>();
     }
 
     void Update()
