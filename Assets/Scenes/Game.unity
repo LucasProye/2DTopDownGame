@@ -535,7 +535,6 @@ GameObject:
   - component: {fileID: 618504387}
   - component: {fileID: 618504389}
   - component: {fileID: 618504388}
-  - component: {fileID: 618504390}
   m_Layer: 0
   m_Name: Shootgun
   m_TagString: Untagged
@@ -622,27 +621,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &618504390
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 618504386}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 3
 --- !u!1 &702174206
 GameObject:
   m_ObjectHideFlags: 0
@@ -1249,6 +1227,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 6d4a27dd-0482-40bd-8606-482bdc40ce84
     m_ActionName: Player/Mouse[/Mouse/position]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 76be6f85-88ec-4713-9cc7-555e64d7d91e
+    m_ActionName: Player/Shoot[/Mouse/leftButton]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player

@@ -6,26 +6,32 @@ public class PlayerMovement : MonoBehaviour
 {
     PlayerInput playerInput;
     Rigidbody2D playerRigidbody2D;
+    Animator _animator;
     Vector2 direction;
     [SerializeField] float speed = 5f;
     [SerializeField] Text _scoring;
     int _score = 0;
+    bool _isRunning;
 
     void Start()
     {
         playerInput = GetComponent<PlayerInput>();
-
+        _animator = GetComponent<Animator>();
         playerRigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     public void Move(InputAction.CallbackContext context)
     {
         direction = context.ReadValue<Vector2>();
-    }
-
-    void Update()
-    {
-        
+        _isRunning = context.performed;
+        if(_isRunning)
+        {
+            _animator.SetBool("Run", true);
+        }
+        else
+        {
+            _animator.SetBool("Run", false);
+        }
     }
 
     void FixedUpdate()
