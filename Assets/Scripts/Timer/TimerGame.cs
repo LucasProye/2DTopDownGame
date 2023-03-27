@@ -36,12 +36,17 @@ public class TimerGame : MonoBehaviour
 
         if(_gm._level1IsPlay == true)
         {
+            _timerOn = true;
             _timeLeft = 5;
+            _gm._level1IsPlay = false;
         }
 
         if (_gm._level2IsPlay == true)
         {
+            Debug.Log("Level 2");
+            _timerOn = true;
             _timeLeft = 10;
+            _gm._level2IsPlay = false;
         }
     }
 

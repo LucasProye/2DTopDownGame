@@ -556,6 +556,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _level:
   - {fileID: 7081097680672479270, guid: a9d897f96a8f28645b852aae55ac3307, type: 3}
+  - {fileID: 7081097680672479270, guid: a9d897f96a8f28645b852aae55ac3307, type: 3}
+  _level1IsPlay: 0
+  _level2IsPlay: 0
+  _level3IsPlay: 0
+  _level4IsPlay: 0
 --- !u!4 &702174208
 Transform:
   m_ObjectHideFlags: 0
@@ -583,7 +588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04ef12e03ebb2af46b1aa085085edeed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timeLeft: 5
+  _timeLeft: 0
   _timerOn: 0
   _timerTxt: {fileID: 2058946996}
 --- !u!1 &810187532

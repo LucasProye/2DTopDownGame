@@ -15,21 +15,28 @@ public class GameManager : MonoBehaviour
     public bool _level3IsPlay = false;
     public bool _level4IsPlay = false;
 
+    private void Awake()
+    {
+        _level1IsPlay = true;
+    }
+
     private void Start()
     {
+        _timerGame = GetComponent<TimerGame>();
         Instantiate(_level[0], _placementLevel, quaternion.identity);
-        _level1IsPlay = true;
+    }
+    private void Update()
+    {
+        LevelUpdate();
     }
 
     private void LevelUpdate()
     {
-        if(_timerGame._timeLeft == 0 && _level1IsPlay == true)
+        if(_timerGame._timeLeft == 0 && _level1IsPlay == false)
         {
-            _level1IsPlay = false;
-            Debug.Log("level 1 is false");
-            Instantiate(_level[1], _placementLevel, quaternion.identity);
             _level2IsPlay = true;
-            Debug.Log("level 2 is true");
+            Instantiate(_level[1], _placementLevel, quaternion.identity);
+            Debug.Log("level 2 is true");   
         }
     }
 }
