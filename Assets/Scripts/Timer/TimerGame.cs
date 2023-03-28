@@ -14,7 +14,8 @@ public class TimerGame : MonoBehaviour
 
     public bool _level1 = false;
     public bool _level2 = false;
-    
+    public bool _level3 = false;
+
     void Start()
     {
         _timerOn = true;
@@ -40,7 +41,7 @@ public class TimerGame : MonoBehaviour
         if (_gm._level1IsPlay == true)
         {
             _timerOn = true;
-            _timeLeft = 5;
+            _timeLeft = 2;
             _level1 = true;
             _gm._level1IsPlay = false;
         }
@@ -48,9 +49,17 @@ public class TimerGame : MonoBehaviour
         if (_gm._level2IsPlay == true)
         {
             _timerOn = true;
-            _timeLeft = 10;
+            _timeLeft = 5;
             _level2 = true;
             _gm._level2IsPlay = false;
+        }
+
+        if (_gm._level3IsPlay == true)
+        {
+            _timerOn = true;
+            _timeLeft = 2;
+            _level3 = true;
+            _gm._level3IsPlay = false;
         }
     }
 

@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     private TimerGame _timerGame;
     public GameObject[] _level;
     public Vector3 _placementLevel = new Vector3(0, 0, 0);
+    GameObject loadedLevel;
 
     [Header("Bool pour timer")]
     public bool _level1IsPlay = false;
@@ -25,29 +26,33 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         _timerGame = GetComponent<TimerGame>();
-        Instantiate(_level[0], _placementLevel, Quaternion.identity);
-        print("Level 1 = true");
+        loadedLevel = Instantiate(_level[0], _placementLevel, Quaternion.identity);
+        print("Level 1 = true");  
     }
 
     private void Update()
     {
-        LevelUpdate();
+        LevelUpdate(); 
     }
 
     private void LevelUpdate()
     {
+        //Level 2 instantiate
         if (_timerGame._timeLeft == 0 && _timerGame._level1 == true)
         {
+            Destroy(loadedLevel);
             _level2IsPlay = true;
-            Instantiate(_level[1], _placementLevel, Quaternion.identity);
+            loadedLevel = Instantiate(_level[1], _placementLevel, Quaternion.identity);
             print("Level 2 = true");
             _timerGame._level1 = false;
         }
 
+        //Level 3 instantiate
         if (_timerGame._timeLeft == 0 && _timerGame._level2 == true)
         {
+            Destroy(loadedLevel);
             _level3IsPlay = true;
-            Instantiate(_level[2], _placementLevel, Quaternion.identity);
+            loadedLevel = Instantiate(_level[2], _placementLevel, Quaternion.identity);
             print("Level 3  = true");
             _timerGame._level2 = false;
         }
