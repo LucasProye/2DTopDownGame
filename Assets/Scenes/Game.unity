@@ -654,6 +654,8 @@ MonoBehaviour:
   _level:
   - {fileID: 7081097680672479270, guid: a9d897f96a8f28645b852aae55ac3307, type: 3}
   - {fileID: 7081097680672479270, guid: 28945e294ef432d488933eb188a7ffc0, type: 3}
+  - {fileID: 7081097680672479270, guid: aef8bf21209441e4e8afd83fa649efc8, type: 3}
+  _placementLevel: {x: 0, y: 0, z: 0}
   _level1IsPlay: 0
   _level2IsPlay: 0
   _level3IsPlay: 0
@@ -688,6 +690,8 @@ MonoBehaviour:
   _timeLeft: 0
   _timerOn: 0
   _timerTxt: {fileID: 2058946996}
+  _level1: 0
+  _level2: 0
 --- !u!1 &810187532
 GameObject:
   m_ObjectHideFlags: 0
@@ -764,7 +768,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0

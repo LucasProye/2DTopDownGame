@@ -12,6 +12,9 @@ public class TimerGame : MonoBehaviour
     [SerializeField] private bool _timerOn = false;
     public Text _timerTxt;
 
+    public bool _level1 = false;
+    public bool _level2 = false;
+    
     void Start()
     {
         _timerOn = true;
@@ -34,18 +37,19 @@ public class TimerGame : MonoBehaviour
             }
         }
 
-        if(_gm._level1IsPlay == true)
+        if (_gm._level1IsPlay == true)
         {
             _timerOn = true;
             _timeLeft = 5;
+            _level1 = true;
             _gm._level1IsPlay = false;
         }
 
         if (_gm._level2IsPlay == true)
         {
-            Debug.Log("Level 2");
             _timerOn = true;
             _timeLeft = 10;
+            _level2 = true;
             _gm._level2IsPlay = false;
         }
     }

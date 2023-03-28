@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Fire : MonoBehaviour
+public class Weapons : MonoBehaviour
 {
     PlayerInput _playerInput;
     Vector2 _rotateFire;
