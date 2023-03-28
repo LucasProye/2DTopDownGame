@@ -24,11 +24,17 @@ public class Weapons : MonoBehaviour
 
     private void Update()
     {
-        Vector3 _objectPos = Camera.main.WorldToScreenPoint(transform.position);
-        _rotateFire.x = _rotateFire.x - _objectPos.x;
-        _rotateFire.y = _rotateFire.y - _objectPos.y;
+        //Vector3 _objectPos = Camera.main.WorldToScreenPoint(transform.position);
+        //_rotateFire.x = _rotateFire.x - _objectPos.x;
+        //_rotateFire.y = _rotateFire.y - _objectPos.y;
 
-        float _angle = Mathf.Atan2(_rotateFire.y, _rotateFire.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(new Vector3(0, 0, _angle));
+        //float _angle = Mathf.Atan2(_rotateFire.y, _rotateFire.x) * Mathf.Rad2Deg;
+        //transform.rotation = Quaternion.Euler(new Vector3(0, 0, _angle));
+        var worldPosition = Camera.main.ScreenToWorldPoint(_rotateFire);
+        var direction = worldPosition - transform.position;
+        direction.z = 0f;
+        direction.Normalize();
+        if(direction.x > 0.5f)
+            transform.right = direction;
     }
 }

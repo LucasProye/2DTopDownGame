@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     PlayerInput playerInput;
     Rigidbody2D playerRigidbody2D;
-    Animator _animator;
+    [SerializeField] Animator _animator;
     Vector2 direction;
     [SerializeField] float speed = 5f;
     [SerializeField] Text _scoring;
@@ -16,7 +16,6 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         playerInput = GetComponent<PlayerInput>();
-        _animator = GetComponent<Animator>();
         playerRigidbody2D = GetComponent<Rigidbody2D>();
     }
 
