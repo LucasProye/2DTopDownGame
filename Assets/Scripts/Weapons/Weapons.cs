@@ -19,7 +19,7 @@ public class Weapons : MonoBehaviour
 
     public void Shoot(InputAction.CallbackContext context)
     {
-
+        
     }
 
     private void Update()

@@ -746,6 +746,7 @@ MonoBehaviour:
   _timerTxt: {fileID: 2058946996}
   _level1: 0
   _level2: 0
+  _level3: 0
 --- !u!1 &810187532
 GameObject:
   m_ObjectHideFlags: 0
