@@ -1301,6 +1301,34 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 76be6f85-88ec-4713-9cc7-555e64d7d91e
     m_ActionName: Player/Shoot[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 02ce005e-525e-4b85-b0f2-e13f53f52780
+    m_ActionName: Player/Gun 1[/Keyboard/1]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2e540053-b80b-413a-beb0-3ec8e9dd23b5
+    m_ActionName: Player/Gun 2[/Keyboard/2]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b218c985-a206-45f4-a889-ef8388c8a5ba
+    m_ActionName: Player/Gun 3[/Keyboard/3]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ed30d598-7ac4-4440-8182-53f9ab3950f0
+    m_ActionName: Player/Gun 4[/Keyboard/4]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 18988434-6bb3-422c-87a5-7879d8d21183
+    m_ActionName: Player/Pause[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b9b2a9d0-9d84-4311-ae6e-ab9943551b02
+    m_ActionName: Player/Heal[/Keyboard/q]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3048a9d1-dfed-4291-85bd-48dd208f4127
+    m_ActionName: Player/Inventary[/Keyboard/tab]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -1319,7 +1347,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 349888583}
-  speed: 5
+  speed: 10
   _scoring: {fileID: 2111722316}
 --- !u!50 &1223201270
 Rigidbody2D:
