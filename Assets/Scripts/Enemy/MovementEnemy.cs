@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.Progress;
 
 public class MovementEnemy : MonoBehaviour
 {
@@ -8,6 +9,13 @@ public class MovementEnemy : MonoBehaviour
     [SerializeField] private float _speed;
     [SerializeField] private float _distanceBetween;
     [SerializeField] private float _distance;
+
+    Animator _animator;
+
+    private void Start()
+    {
+        _animator = GetComponent<Animator>();
+    }
 
     private void Update()
     {
@@ -18,6 +26,14 @@ public class MovementEnemy : MonoBehaviour
         if(_distance < _distanceBetween)
         {
             transform.position = Vector2.MoveTowards(this.transform.position, _player.transform.position, _speed * Time.deltaTime);
+            _animator.SetBool("Run", true);
+        }
+
+        if(_distance > _distanceBetween)
+        {
+            _animator.SetBool("Run", false);
         }
     }
+
+    
 }
