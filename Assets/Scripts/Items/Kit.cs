@@ -12,6 +12,11 @@ public class Kit : MonoBehaviour
     [SerializeField] private Text _nbHeal;
     bool _heal = false;
 
+    private void Start()
+    {
+        _items._nbKit = 0;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
