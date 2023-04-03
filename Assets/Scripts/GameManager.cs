@@ -51,7 +51,7 @@ public class GameManager : MonoBehaviour
 
     private void LevelUpdate()
     {
-
+        // Load1 actif
         if (_LoadRoom1)
         {
             _load.SetActive(true);
@@ -66,6 +66,7 @@ public class GameManager : MonoBehaviour
             loadedLevel = Instantiate(_level[0], _placementLevel, Quaternion.identity);
         }
 
+        // Load2 Actif
         if(_LoadRoom2)
         {
             _load.SetActive(true);
@@ -73,6 +74,29 @@ public class GameManager : MonoBehaviour
             Destroy(loadedLevel);
         }
 
+        // Level2 Instantiate
+        if (_Room2)
+        {
+            _load.SetActive(false);
+            _Room2 = false;
+            loadedLevel = Instantiate(_level[1], _placementLevel, Quaternion.identity);
+        }
+
+        // Load3 Actif
+        if (_LoadRoom3)
+        {
+            _load.SetActive(true);
+            _LoadRoom3 = false;
+            Destroy(loadedLevel);
+        }
+
+        // Level2 Instantiate
+        if (_Room3)
+        {
+            _load.SetActive(false);
+            _Room3 = false;
+            loadedLevel = Instantiate(_level[2], _placementLevel, Quaternion.identity);
+        }
 
 
 

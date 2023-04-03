@@ -55,39 +55,12 @@ public class TimerGame : MonoBehaviour
             }
         }
 
-        if(_goLoad1)
-        {
-            _timerOn = true;
-            _timeLeftLoad = 5;
-            _timeLeftGame = 5;
-            _timerTxtLoad.text = "" + _timeLeftLoad;
+        TimeForRoom();
+    }
 
-            _gm._LoadRoom1 = true;
-            _goLoad1 = false;
-            
-        }
-
-        if (!_goLoad1 && _timeLeftLoad == 0)
-        {
-            _timerOn = true;
-            _timeLeftGame = 10;
-            _timeLeftLoad = 10;
-            _timerTxtGame.text = "" + _timerTxtGame;
-
-            _gm._Room1 = true;
-            _goLoad2 = true;
-        }
-
-        if(_goLoad2 && _timeLeftGame == 0)
-        {
-            _timerOn = true;
-            _timeLeftGame = 5;
-            _timeLeftLoad = 5;
-            _timerTxtLoad.text = "" + _timeLeftLoad;
-
-            _gm._LoadRoom2 = true;
-            _goLoad2 = false;
-        }
+    private void TimeForRoom()
+    {
+        StartCoroutine(WaitForPrintRoom());
     }
 
     void updateTimer(float currentTime)
@@ -99,5 +72,96 @@ public class TimerGame : MonoBehaviour
 
         _timerTxtGame.text = string.Format("{0:00}:{1:00}", minutes, seconds);
         _timerTxtLoad.text = string.Format("{0:0}{1:0}", minutes, seconds);
+    }
+
+    void ConfigurationTimerLoad()
+    {
+        _timerOn = true;
+        _timeLeftLoad = 5;
+        _timeLeftGame = 5;
+        _timerTxtLoad.text = "" + _timeLeftLoad;
+    }
+
+    void ConfigurationTimerGame()
+    {
+        _timerOn = true;
+        _timeLeftGame = 10;
+        _timeLeftLoad = 10;
+        _timerTxtGame.text = "" + _timerTxtGame;
+    }
+
+    IEnumerator WaitForPrintRoom()
+    {
+        if(_goLoad1)
+        {
+            _goLoad1 = false;
+            _gm._LoadRoom1 = true;
+
+            ConfigurationTimerLoad();
+
+            yield return new WaitForSeconds(5);
+
+            _goRoom1 = true;
+        }
+
+        if (_goRoom1)
+        {
+            _goRoom1 = false;
+            _gm._Room1 = true;
+
+            ConfigurationTimerGame();
+
+            yield return new WaitForSeconds(10);
+
+            _goLoad2 = true;
+        }
+
+        if (_goLoad2)
+        {
+            _goLoad2 = false;
+            _gm._LoadRoom2 = true;
+
+            ConfigurationTimerLoad();
+
+            yield return new WaitForSeconds(5);
+
+            _goRoom2 = true;
+        }
+
+        if (_goRoom2)
+        {
+            _goRoom2 = false;
+            _gm._Room2 = true;
+
+            ConfigurationTimerGame();
+
+            yield return new WaitForSeconds(10);
+
+            _goLoad3 = true;
+        }
+
+        if (_goLoad3)
+        {
+            _goLoad3 = false;
+            _gm._LoadRoom3 = true;
+
+            ConfigurationTimerLoad();
+
+            yield return new WaitForSeconds(5);
+
+            _goRoom3 = true;
+        }
+
+        if (_goRoom3)
+        {
+            _goRoom3 = false;
+            _gm._Room3 = true;
+
+            ConfigurationTimerGame();
+
+            yield return new WaitForSeconds(10);
+
+            //MenuEndGame
+        }
     }
 }
