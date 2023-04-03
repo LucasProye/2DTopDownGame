@@ -41,7 +41,7 @@ public class TimerGame : MonoBehaviour
         if (_gm._level1IsPlay == true)
         {
             _timerOn = true;
-            _timeLeft = 60;
+            _timeLeft = 5;
             _level1 = true;
             _gm._level1IsPlay = false;
         }

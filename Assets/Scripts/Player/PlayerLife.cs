@@ -5,10 +5,10 @@ using UnityEngine.UI;
 
 public class PlayerLife : MonoBehaviour
 {
-    [SerializeField] private int _life;
+    public int _life;
     [SerializeField] private int _lifeMax = 5;
     [SerializeField] private int _lifeMin = 0;
-    [SerializeField] Text _lifeTxt;
+    public Text _lifeTxt;
 
     bool _isAlive = true;
     bool _isTouch = false;
@@ -29,21 +29,11 @@ public class PlayerLife : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        StartCoroutine(WaitForDamageAgain());
-    }
-
     private void Life()
     {
         if(_life == 0)
         {
             _isAlive = false;
         }
-    }
-
-    IEnumerator WaitForDamageAgain()
-    {
-        yield return new WaitForSeconds(5f);
     }
 }
