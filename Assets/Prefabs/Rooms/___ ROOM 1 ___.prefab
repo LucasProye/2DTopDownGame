@@ -1514,6 +1514,7 @@ GameObject:
   - component: {fileID: 2634788633767559182}
   - component: {fileID: 2634788633767559183}
   - component: {fileID: 2634788633767559168}
+  - component: {fileID: 6604125090097753970}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1648,10 +1649,34 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 6604125090097753970}
+        m_TargetAssemblyTypeName: Shoot, Assembly-CSharp
+        m_MethodName: Mouse
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 6d4a27dd-0482-40bd-8606-482bdc40ce84
     m_ActionName: Player/Mouse[/Mouse/position]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6604125090097753970}
+        m_TargetAssemblyTypeName: Shoot, Assembly-CSharp
+        m_MethodName: Attack
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 76be6f85-88ec-4713-9cc7-555e64d7d91e
     m_ActionName: Player/Shoot[/Mouse/leftButton]
   - m_PersistentCalls:
@@ -1801,6 +1826,21 @@ MonoBehaviour:
   _lifeMax: 5
   _lifeMin: 0
   _lifeTxt: {fileID: 6329546731685235358}
+--- !u!114 &6604125090097753970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2634788633767559176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9356ab6b8ae8174d8f29a7db3819de8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bulletAnimation: {fileID: 2642545651245174852, guid: 9752bd05dd8fe094bb52e99a339cb8bb, type: 3}
+  _bullet:
+  - {fileID: 2642545651245174854, guid: 9752bd05dd8fe094bb52e99a339cb8bb, type: 3}
 --- !u!1 &3064559271440836288
 GameObject:
   m_ObjectHideFlags: 0
