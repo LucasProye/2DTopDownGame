@@ -19,8 +19,10 @@ public class Kit : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") /*&& _playerLife._life > 0 && _playerLife._life < 5*/)
         {
+            /*_playerLife._life++;
+            _playerLife._lifeTxt.text = "" + _playerLife._life;*/
             _items._nbKit++;
             _nbHeal.text = "" + _items._nbKit;
             gameObject.SetActive(false);

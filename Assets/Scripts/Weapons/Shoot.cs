@@ -8,29 +8,58 @@ public class Shoot : MonoBehaviour
     bool _attack;
     Vector2 _mousePosition;
     [SerializeField] Animator _bulletAnimation;
-    [SerializeField] Transform[] _bullet;
+
+    [SerializeField] Transform _positionBullet;
+    [SerializeField] GameObject _bullet;
+    float _bulletSpeed = 20f;
+    Vector2 _worldPosition;
+    float _lookAngle;
+
+    /*[SerializeField] float timeBeforeAttack;
+    [SerializeField] float maxTimeBeforeAttack = 1;
+    [SerializeField] float minTimeBeforeAttack = 0;*/
 
     public void Attack(InputAction.CallbackContext callback)
     {
         _attack = callback.performed;
     }
 
-    private void Update()
-    {
-        if (_attack)
-        {
-            Transform newProjectile = Instantiate(_bullet[0], transform.position, Quaternion.identity);
-
-            Vector3 worldPosition = Camera.main.ScreenToWorldPoint(_mousePosition);
-            Vector3 direction = worldPosition - transform.position;
-            direction.z = 0;
-
-            newProjectile.right = direction;
-        }
-    }
-
     public void Mouse(InputAction.CallbackContext callback)
     {
         _mousePosition = callback.ReadValue<Vector2>();
     }
+
+    private void Update()
+    {
+        _worldPosition = Camera.main.ScreenToWorldPoint(_mousePosition);
+        _lookAngle = Mathf.Atan2(_mousePosition.y, _mousePosition.x) * Mathf.Rad2Deg;
+
+        _positionBullet.rotation = Quaternion.Euler(0, 0, _lookAngle);
+
+        if (_attack)
+        {
+            GameObject newBullet = Instantiate(_bullet);
+            newBullet.transform.position = _positionBullet.position;
+            newBullet.transform.rotation = Quaternion.Euler(0, 0, _lookAngle);
+
+            newBullet.GetComponent<Rigidbody2D>().velocity = _positionBullet.right * _bulletSpeed;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
