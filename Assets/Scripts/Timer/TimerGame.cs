@@ -8,6 +8,7 @@ using Unity.VisualScripting;
 public class TimerGame : MonoBehaviour
 {
     private GameManager _gm;
+    [SerializeField] private GameObject _camera;
     public float _timeLeftGame;
     public float _timeLeftLoad;
     [SerializeField] private bool _timerOn = false;
@@ -94,6 +95,8 @@ public class TimerGame : MonoBehaviour
     {
         if(_goLoad1)
         {
+            _camera.SetActive(true);
+
             _goLoad1 = false;
             _gm._LoadRoom1 = true;
 
@@ -106,6 +109,8 @@ public class TimerGame : MonoBehaviour
 
         if (_goRoom1)
         {
+            _camera.SetActive(false);
+
             _goRoom1 = false;
             _gm._Room1 = true;
 
@@ -118,6 +123,8 @@ public class TimerGame : MonoBehaviour
 
         if (_goLoad2)
         {
+            _camera.SetActive(true);
+
             _goLoad2 = false;
             _gm._LoadRoom2 = true;
 
@@ -130,6 +137,8 @@ public class TimerGame : MonoBehaviour
 
         if (_goRoom2)
         {
+            _camera.SetActive(false);
+
             _goRoom2 = false;
             _gm._Room2 = true;
 
@@ -142,6 +151,8 @@ public class TimerGame : MonoBehaviour
 
         if (_goLoad3)
         {
+            _camera.SetActive(true);
+
             _goLoad3 = false;
             _gm._LoadRoom3 = true;
 
@@ -154,6 +165,8 @@ public class TimerGame : MonoBehaviour
 
         if (_goRoom3)
         {
+            _camera.SetActive(false);
+
             _goRoom3 = false;
             _gm._Room3 = true;
 
