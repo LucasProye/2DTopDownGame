@@ -30,6 +30,7 @@ public class Weapons : MonoBehaviour
 
         //float _angle = Mathf.Atan2(_rotateFire.y, _rotateFire.x) * Mathf.Rad2Deg;
         //transform.rotation = Quaternion.Euler(new Vector3(0, 0, _angle));
+
         var worldPosition = Camera.main.ScreenToWorldPoint(_rotateFire);
         var direction = worldPosition - transform.position;
         direction.z = 0f;

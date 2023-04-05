@@ -34,6 +34,4 @@ public class MovementEnemy : MonoBehaviour
             _animator.SetBool("Run", false);
         }
     }
-
-    
 }

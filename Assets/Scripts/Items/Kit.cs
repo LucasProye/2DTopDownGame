@@ -19,17 +19,17 @@ public class Kit : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") /*&& _playerLife._life > 0 && _playerLife._life < 5*/)
+        if (collision.CompareTag("Player") && _playerLife._life > 0 && _playerLife._life < 5)
         {
-            /*_playerLife._life++;
-            _playerLife._lifeTxt.text = "" + _playerLife._life;*/
-            _items._nbKit++;
-            _nbHeal.text = "" + _items._nbKit;
+            _playerLife._life++;
+            _playerLife._lifeTxt.text = "" + _playerLife._life;
+            /*_items._nbKit++;
+            _nbHeal.text = "" + _items._nbKit;*/
             gameObject.SetActive(false);
         }
     }
 
-    public void Heal(InputAction.CallbackContext context)
+    /*public void Heal(InputAction.CallbackContext context)
     {
         _heal = context.performed;
 
@@ -41,5 +41,5 @@ public class Kit : MonoBehaviour
             _nbHeal.text = "" + _items._nbKit;
             print("Player Heal = true");
         }
-    }
+    }*/
 }
