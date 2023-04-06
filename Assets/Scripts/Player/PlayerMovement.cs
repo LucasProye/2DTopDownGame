@@ -7,16 +7,20 @@ public class PlayerMovement : MonoBehaviour
     PlayerInput playerInput;
     Rigidbody2D playerRigidbody2D;
     [SerializeField] Animator _animator;
+    private GameSave _gameSave;
     Vector2 direction;
     [SerializeField] float speed = 5f;
 
     bool _isRunning;
 
     public Text _scoring;
-    public int _score = 0;
 
     void Start()
     {
+        _gameSave = GameSave.instance;
+
+        _scoring.text = "" + _gameSave._score;
+
         playerInput = GetComponent<PlayerInput>();
         playerRigidbody2D = GetComponent<Rigidbody2D>();
     }
@@ -44,8 +48,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if(other.CompareTag("Coins"))
         {
-            _score += 1;
-            _scoring.text = "" + _score;
+            _gameSave._score += 1;
+            _scoring.text = "" + _gameSave._score;
         }
     }
 }

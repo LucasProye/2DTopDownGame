@@ -128,7 +128,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 2
+  m_Constraints: 0
 --- !u!60 &7269973356523415618
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -174,3 +174,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db934bafcd513b045a15a63190998e20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5

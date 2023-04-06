@@ -6,37 +6,51 @@ using UnityEngine.InputSystem;
 public class Shoot : MonoBehaviour
 {
     bool _attack;
-    Vector2 _mousePosition;
+
+    private Mouse _mouse;
+
     [SerializeField] Animator _bulletAnimation;
 
     [SerializeField] Transform _positionBullet;
-    [SerializeField] GameObject _bullet;
-    float _bulletSpeed = 20f;
+    [SerializeField] Transform _bullet;
+    [SerializeField] float _bulletSpeed = 20f;
     Vector2 _worldPosition;
     float _lookAngle;
+
+    private void Awake()
+    {
+        _mouse = Mouse.current;
+    }
 
     public void Attack(InputAction.CallbackContext callback)
     {
         if (callback.started)
         {
-            GameObject newBullet = Instantiate(_bullet);
+            Vector2 direction = GetAim();
+
+            if (direction.x < 0) return;
+
+            Bullet newBullet = Instantiate(_bullet).GetComponent<Bullet>();
             newBullet.transform.position = _positionBullet.position;
-            newBullet.transform.rotation = Quaternion.Euler(0, 0, _lookAngle);
+            newBullet.SetDirection(direction);
 
-            newBullet.GetComponent<Rigidbody2D>().velocity = _positionBullet.right * _bulletSpeed;
+            //newBullet.GetComponent<Rigidbody2D>().AddForce(GetAim() * _bulletSpeed * 1000); //.transform.right *= _bulletSpeed;
         }
-    }
-
-    public void Mouse(InputAction.CallbackContext callback)
-    {
-        _mousePosition = callback.ReadValue<Vector2>();
     }
 
     private void Update()
     {
-        _worldPosition = Camera.main.ScreenToWorldPoint(_mousePosition);
-        _lookAngle = Mathf.Atan2(_mousePosition.y, _mousePosition.x) * Mathf.Rad2Deg;
 
-        _positionBullet.rotation = Quaternion.Euler(0, 0, _lookAngle);
+        //_worldPosition = Camera.main.ScreenToWorldPoint(_mousePosition);
+        
+        //_lookAngle = Mathf.Atan2(_mousePosition.y, _mousePosition.x) * Mathf.Rad2Deg;
+    }
+
+    private Vector2 GetAim()
+    {
+        Resolution resolution = Screen.currentResolution;
+        Vector2 screenSize = new Vector2(resolution.width, resolution.height);
+        Vector2 sampleMousePosition = _mouse.position.ReadValue() - screenSize / 2;
+        return sampleMousePosition.normalized;
     }
 }

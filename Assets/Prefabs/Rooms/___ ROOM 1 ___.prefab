@@ -357,12 +357,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 743809053497151956}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.654, y: 0.07700001, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.16350022, y: 0.01925001, z: 0}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2634788631952683323}
+  m_Father: {fileID: 2634788633615871816}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &917627274501046104
@@ -1327,7 +1327,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6194273498184751663}
   - {fileID: 2634788633615871816}
   m_Father: {fileID: 2634788633767559179}
   m_RootOrder: 0
@@ -2143,9 +2142,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6194273498184751663}
   m_Father: {fileID: 2634788631952683323}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2634788633615871817
 SpriteRenderer:
@@ -2254,7 +2254,6 @@ MonoBehaviour:
   _animator: {fileID: 2634788632220774847}
   speed: 10
   _scoring: {fileID: 4750242413813754537}
-  _score: 0
 --- !u!114 &2634788633767559180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2511,7 +2510,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2b1242c56b3634aacdfe7322ca9713, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameSave: {fileID: 780192950299835455, guid: 0a29576767c77694e9fb38c314381025, type: 3}
   _animator: {fileID: 2634788632220774847}
   _spriteLife:
   - {fileID: 5161350438118514135}
@@ -2534,7 +2532,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _bulletAnimation: {fileID: 2642545651245174852, guid: 9752bd05dd8fe094bb52e99a339cb8bb, type: 3}
   _positionBullet: {fileID: 6194273498184751663}
-  _bullet: {fileID: 2642545651245174851, guid: 9752bd05dd8fe094bb52e99a339cb8bb, type: 3}
+  _bullet: {fileID: 2642545651245174854, guid: 9752bd05dd8fe094bb52e99a339cb8bb, type: 3}
+  _bulletSpeed: 20
 --- !u!1 &2667787288026444582
 GameObject:
   m_ObjectHideFlags: 0

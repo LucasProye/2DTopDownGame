@@ -7,9 +7,14 @@ public class GameSave : MonoBehaviour
 {
     public static GameSave instance { private set; get; }
 
+    [Header ("Player Life")]
     public int _life = 0;
     public int _lifeMax = 6;
     public int _lifeMin = 0;
+
+    [Header ("ScoreCoins")]
+    public int _score = 0;
+
 
     private void Start()
     {
@@ -22,5 +27,6 @@ public class GameSave : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         _life = 6;
+        _score = 0;
     }
 }
