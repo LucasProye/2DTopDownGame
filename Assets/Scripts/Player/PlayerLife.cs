@@ -5,35 +5,87 @@ using UnityEngine.UI;
 
 public class PlayerLife : MonoBehaviour
 {
-    public int _life;
-    [SerializeField] private int _lifeMax = 5;
-    [SerializeField] private int _lifeMin = 0;
-    public Text _lifeTxt;
+    [SerializeField] private GameSave _gameSave;
+
+    [SerializeField] private Animator _animator;
+
+    [SerializeField] GameObject[] _spriteLife;
+
+    int _nblifePlayer
 
     bool _isAlive = true;
-    bool _isTouch = false;
+    bool _touch = false;
 
-
-    private void Start()
+    private void Update()
     {
-        _life = 5;
-        _lifeTxt.text = "" + _life;
+        print(_gameSave._life);
+
+        if (_gameSave._life == 6)
+            _spriteLife[0].SetActive(true);
+        else
+            _spriteLife[0].SetActive(false);
+
+        if (_gameSave._life == 5)
+            _spriteLife[1].SetActive(true);
+        else
+            _spriteLife[1].SetActive(false);
+
+        if (_gameSave._life == 4)
+            _spriteLife[2].SetActive(true);
+        else
+            _spriteLife[2].SetActive(false);
+
+        if (_gameSave._life == 3)
+            _spriteLife[3].SetActive(true);
+        else
+            _spriteLife[3].SetActive(false);
+
+        if (_gameSave._life == 2)
+            _spriteLife[4].SetActive(true);
+        else
+            _spriteLife[4].SetActive(false);
+
+        if (_gameSave._life == 1)
+            _spriteLife[5].SetActive(true);
+        else
+            _spriteLife[5].SetActive(false);
     }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy") && _life != _lifeMin)
+        if (collision.CompareTag("Enemy") && _gameSave._life > _gameSave._lifeMin && _touch == false)
         {
-            _life--;
-            _lifeTxt.text = "" + _life;
+            _gameSave._life -= 1;
+            _animator.SetBool("Hurt", true);
+            _touch = true;
         }
+
+        if (_touch)
+        {
+            StartCoroutine(WaitForGiveDamageToPlayer());
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Enemy"))
+            _touch = true;
     }
 
     private void Life()
     {
-        if(_life == 0)
+        if(_gameSave._life < 1)
         {
             _isAlive = false;
         }
+    }
+
+    IEnumerator WaitForGiveDamageToPlayer()
+    {
+        if(_touch)
+            yield return new WaitForSeconds(2);
+            _touch = false;
+            _animator.SetBool("Hurt", false);
     }
 }

@@ -7,6 +7,7 @@ TagManager:
   - Coins
   - Enemy
   - Kit
+  - Bullet
   layers:
   - Default
   - TransparentFX

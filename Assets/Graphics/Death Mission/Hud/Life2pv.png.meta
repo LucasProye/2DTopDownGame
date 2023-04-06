@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1e84bf3f012df3b488cfcc602bccccca
+guid: 8acac924d7387c9478440d7ba9ec7034
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,34 +117,34 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Zombie Dead_strip8_0
+      name: Life2pv_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 35
-        height: 36
+        width: 21
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc574e125f7017d4b83c7069abd58b4f
-      internalID: -489727669
+      spriteID: 6de188a0e50348b49aafc044204d3741
+      internalID: 2140840087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie Dead_strip8_1
+      name: Life2pv_1
       rect:
         serializedVersion: 2
-        x: 35
+        x: 21
         y: 0
-        width: 35
-        height: 36
+        width: 21
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db0fce251664c004d95a3ab908d0a64d
-      internalID: -398434367
+      spriteID: b4279f8d761ebeb4aaa49288cbb16ded
+      internalID: -931790458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie Dead_strip8_2
+      name: Life2pv_2
       rect:
         serializedVersion: 2
-        x: 70
+        x: 42
         y: 0
-        width: 35
-        height: 36
+        width: 21
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5162beb2c6356d46b04042d79e873aa
-      internalID: -2054298057
+      spriteID: 18120cad6fcf7f04b91e6d3278279cef
+      internalID: 1758146515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie Dead_strip8_3
+      name: Life2pv_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386bf37f64b6db843b0293e4c00a153d
+      internalID: 1453451338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life2pv_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9a990b19d570c40a6cc18fb99e8e07
+      internalID: -353176422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life2pv_5
       rect:
         serializedVersion: 2
         x: 105
         y: 0
-        width: 35
-        height: 36
+        width: 21
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6e49f518745df84c8de868c4c7153dd
-      internalID: -1733157191
+      spriteID: cd5ec9b0f18bd1544bd986a58adf7acf
+      internalID: 602835311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie Dead_strip8_4
+      name: Life2pv_6
       rect:
         serializedVersion: 2
-        x: 140
+        x: 126
         y: 0
-        width: 35
-        height: 36
+        width: 21
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,71 +257,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57cd50f4afe542641ba4e65a88f13efb
-      internalID: 939507630
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Zombie Dead_strip8_5
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 0
-        width: 35
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a386565c3908b345bbf90a25898cdc0
-      internalID: 128715655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Zombie Dead_strip8_6
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 0
-        width: 35
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70bc3b8ed682ba840a0b80dcc50987ab
-      internalID: 1874337882
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Zombie Dead_strip8_7
-      rect:
-        serializedVersion: 2
-        x: 245
-        y: 0
-        width: 35
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1700441279c981047be2c289424d84fe
-      internalID: -1142799179
+      spriteID: 41bff09264bd0d44ab59febc9bdc539e
+      internalID: -1332336423
       vertices: []
       indices: 
       edges: []
@@ -295,14 +274,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Zombie Dead_strip8_1: -398434367
-      Zombie Dead_strip8_3: -1733157191
-      Zombie Dead_strip8_7: -1142799179
-      Zombie Dead_strip8_0: -489727669
-      Zombie Dead_strip8_2: -2054298057
-      Zombie Dead_strip8_6: 1874337882
-      Zombie Dead_strip8_5: 128715655
-      Zombie Dead_strip8_4: 939507630
+      Life2pv_2: 1758146515
+      Life2pv_5: 602835311
+      Life2pv_0: 2140840087
+      Life2pv_4: -353176422
+      Life2pv_6: -1332336423
+      Life2pv_1: -931790458
+      Life2pv_3: 1453451338
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

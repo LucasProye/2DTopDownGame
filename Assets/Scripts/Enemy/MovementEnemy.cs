@@ -6,9 +6,10 @@ using static UnityEditor.Progress;
 public class MovementEnemy : MonoBehaviour
 {
     [SerializeField] private GameObject _player;
-    [SerializeField] private float _speed;
+    public float _speed;
     [SerializeField] private float _distanceBetween;
     [SerializeField] private float _distance;
+    [SerializeField] private EnemyLife _enemyLife;
 
     Animator _animator;
 
@@ -32,6 +33,11 @@ public class MovementEnemy : MonoBehaviour
         if(_distance > _distanceBetween)
         {
             _animator.SetBool("Run", false);
+        }
+
+        if(_enemyLife._isAlive == false)
+        {
+            _speed = 0;
         }
     }
 }

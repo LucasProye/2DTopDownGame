@@ -10,12 +10,13 @@ public class Kit : MonoBehaviour
     [SerializeField] private PlayerLife _playerLife;
     [SerializeField] private Text _nbHeal;
 
+    [SerializeField] private GameSave _gameSave;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && _playerLife._life > 0 && _playerLife._life < 5)
+        if (collision.CompareTag("Player") && _gameSave._life > 0 && _gameSave._life < 6)
         {
-            _playerLife._life++;
-            _playerLife._lifeTxt.text = "" + _playerLife._life;
+            _gameSave._life++;
             gameObject.SetActive(false);
         }
     }
