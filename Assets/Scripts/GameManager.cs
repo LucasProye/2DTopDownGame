@@ -11,17 +11,6 @@ public class GameManager : MonoBehaviour
     public Vector3 _placementLevel = new Vector3(0, 0, 0);
     GameObject loadedLevel;
 
-    [Header("Player Infos")]
-    //[SerializeField] private Transform _plTransform;
-    /*Vector3 _positionR1 = new Vector3(0, 0, 0);
-    Vector3 _positionR2 = new Vector3(0, 0, 0);
-    Vector3 _positionR3 = new Vector3(0, 0, 0);*/
-
-    [Header("Spawn Point")]
-    /*[SerializeField] private Transform _spawnR1;
-    [SerializeField] private Transform _spawnR2;
-    [SerializeField] private Transform _spawnR3;*/
-
     [Header ("Loading Screen")]
     [SerializeField] private GameObject _load;
     public bool _LoadRoom1 = false;
@@ -58,11 +47,9 @@ public class GameManager : MonoBehaviour
         // Level1 Instantiate
         if (_Room1)
         {
-            //_positionR1 = _spawnR1.position;
-            //_plTransform.position = _positionR1;
+
             _load.SetActive(false);
             _Room1 = false;
-            //_level.SetActive(true);
 
             loadedLevel = Instantiate(_level[0], _placementLevel, Quaternion.identity);
         }
@@ -73,18 +60,13 @@ public class GameManager : MonoBehaviour
             _load.SetActive(true);
             _LoadRoom2 = false;
             Destroy(loadedLevel);
-            //_level.SetActive(false);
-
         }
 
         // Level2 Instantiate
         if (_Room2)
         {
-            //_positionR2 = _spawnR2.position;
-            //_plTransform.position = _positionR2;
             _load.SetActive(false);
             _Room2 = false;
-            //_level.SetActive(true);
 
             loadedLevel = Instantiate(_level[1], _placementLevel, Quaternion.identity);
         }
@@ -95,17 +77,13 @@ public class GameManager : MonoBehaviour
             _load.SetActive(true);
             _LoadRoom3 = false;
             Destroy(loadedLevel);
-            //_level.SetActive(false);
         }
 
         // Level2 Instantiate
         if (_Room3)
         {
-            //_positionR3 = _spawnR3.position;
-            //_plTransform.position = _positionR3;
             _load.SetActive(false);
             _Room3 = false;
-            //_level.SetActive(true);
 
             loadedLevel = Instantiate(_level[2], _placementLevel, Quaternion.identity);
         }

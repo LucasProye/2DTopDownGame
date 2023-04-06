@@ -9,9 +9,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Animator _animator;
     Vector2 direction;
     [SerializeField] float speed = 5f;
-    [SerializeField] Text _scoring;
-    int _score = 0;
+
     bool _isRunning;
+
+    public Text _scoring;
+    public int _score = 0;
 
     void Start()
     {
