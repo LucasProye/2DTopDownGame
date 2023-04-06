@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -2055,8 +2055,8 @@ TextureImporter:
       Toxic Fx_strip90_4: -1287823162
       Toxic Fx_strip90_34: -1196556925
       Toxic Fx_strip90_12: -134890519
-      Toxic Fx_strip90_21: 1028566021
       Toxic Fx_strip90_36: -951727280
+      Toxic Fx_strip90_21: 1028566021
       Toxic Fx_strip90_30: -321107662
       Toxic Fx_strip90_42: -855115893
       Toxic Fx_strip90_9: -1983562168

@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    [SerializeField] private float speed;
+    [SerializeField] private float _speed;
     private Vector2 direction;
+    private Animator _anim;
 
     private Rigidbody2D body;
 
@@ -14,35 +15,32 @@ public class Bullet : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
     }
 
+    private void Start()
+    {
+        _anim = GetComponent<Animator>();
+    }
+
     public void SetDirection(Vector2 _dir) {
         transform.localRotation = Quaternion.Euler(0, 0, Vector2.SignedAngle(Vector2.right, _dir));
         direction = _dir; }
 
     private void FixedUpdate()
     {
-        body.MovePosition(body.position + speed * Time.fixedDeltaTime * direction);
-    }
-    /*[Header("Set up")]
-    [SerializeField] int damage;
-
-    [SerializeField] float speed;
-
-    private void Start()
-    {
-        Destroy(gameObject, 2);
+        body.MovePosition(body.position + _speed * Time.fixedDeltaTime * direction);
     }
 
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        transform.Translate(speed * Time.deltaTime, 0, 0);
-    }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Enemy"))
+        if(collision.CompareTag("Wall") || collision.CompareTag("Enemy"))
         {
-            *//*var target = other.GetComponent<Life>();*/
-    /*target.Damage(damage);*//*
-}
-}*/
+            _anim.SetBool("BulletTouch", true);
+            StartCoroutine(WaitForDestroyBullet());
+        }
+    }
+
+    IEnumerator WaitForDestroyBullet()
+    {
+        yield return new WaitForSeconds(0.1f);
+        Destroy(gameObject);
+    }
 }

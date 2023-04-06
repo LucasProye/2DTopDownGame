@@ -33,17 +33,12 @@ public class Shoot : MonoBehaviour
             Bullet newBullet = Instantiate(_bullet).GetComponent<Bullet>();
             newBullet.transform.position = _positionBullet.position;
             newBullet.SetDirection(direction);
-
-            //newBullet.GetComponent<Rigidbody2D>().AddForce(GetAim() * _bulletSpeed * 1000); //.transform.right *= _bulletSpeed;
         }
     }
 
     private void Update()
     {
 
-        //_worldPosition = Camera.main.ScreenToWorldPoint(_mousePosition);
-        
-        //_lookAngle = Mathf.Atan2(_mousePosition.y, _mousePosition.x) * Mathf.Rad2Deg;
     }
 
     private Vector2 GetAim()
