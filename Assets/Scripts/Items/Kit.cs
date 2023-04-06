@@ -11,6 +11,10 @@ public class Kit : MonoBehaviour
     [SerializeField] private Text _nbHeal;
 
     [SerializeField] private GameSave _gameSave;
+    private void Start()
+    {
+        _gameSave = GameSave.instance;
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

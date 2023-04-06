@@ -5,16 +5,19 @@ using UnityEngine.UI;
 
 public class PlayerLife : MonoBehaviour
 {
-    [SerializeField] private GameSave _gameSave;
+    private GameSave _gameSave;
 
     [SerializeField] private Animator _animator;
 
     [SerializeField] GameObject[] _spriteLife;
 
-    int _nblifePlayer
-
     bool _isAlive = true;
-    bool _touch = false;
+    bool _isTouch = false;
+
+    private void Start()
+    {
+        _gameSave = GameSave.instance;
+    }
 
     private void Update()
     {
@@ -51,6 +54,7 @@ public class PlayerLife : MonoBehaviour
             _spriteLife[5].SetActive(false);
     }
 
+    bool _touch = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
