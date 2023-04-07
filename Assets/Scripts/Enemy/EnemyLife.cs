@@ -8,10 +8,8 @@ public class EnemyLife : MonoBehaviour
     public int _life;
     [SerializeField] private int _lifeMax = 6;
     [SerializeField] private int _lifeMin = 0;
-
     [SerializeField] private Animator _animator;
     [SerializeField] private MovementEnemy _enemyMovement;
-
     [SerializeField] GameObject[] _spriteLife;
 
     bool _touch = false;
@@ -65,7 +63,7 @@ public class EnemyLife : MonoBehaviour
             _life -= 1;
             _animator.SetBool("HurtEnemy", true);
             _touch = true;
-        }
+        }                
     }
 
     IEnumerator WaitForAnimation()

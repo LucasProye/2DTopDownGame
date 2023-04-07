@@ -8,11 +8,11 @@ public class MovementEnemy : MonoBehaviour
     [SerializeField] private float _distance;
     [SerializeField] private EnemyLife _enemyLife;
 
-    Animator _animator;
+    [SerializeField] Animator _animator;
 
     private void Start()
     {
-        _animator = GetComponent<Animator>();
+        //_animator = GetComponent<Animator>();
     }
 
     private void Update()

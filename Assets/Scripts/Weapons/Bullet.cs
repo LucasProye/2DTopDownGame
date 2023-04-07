@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
@@ -35,6 +34,11 @@ public class Bullet : MonoBehaviour
         {
             _anim.SetBool("BulletTouch", true);
             StartCoroutine(WaitForDestroyBullet());
+        }
+
+        if(collision.CompareTag("Enemy"))
+        {
+
         }
     }
 

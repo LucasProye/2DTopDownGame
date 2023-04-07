@@ -10,7 +10,7 @@ public class PlayerLife : MonoBehaviour
     [SerializeField] private Animator _animator;
 
     [SerializeField] GameObject[] _spriteLife;
-
+    [SerializeField] EnemyLife _enemy;
     private CinemachineImpulseSource _cinemachineImpulse;
     [SerializeField] private float _impulseForce = 1;
 
@@ -62,7 +62,7 @@ public class PlayerLife : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy") && _gameSave._life > _gameSave._lifeMin && _touch == false)
+        if (collision.CompareTag("Enemy") && _gameSave._life > _gameSave._lifeMin && _touch == false && _enemy._life != 0)
         {
             _gameSave._life -= 1;
             _animator.SetBool("Hurt", true);

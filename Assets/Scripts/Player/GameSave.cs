@@ -15,7 +15,6 @@ public class GameSave : MonoBehaviour
     [Header ("ScoreCoins")]
     public int _score = 0;
 
-
     private void Start()
     {
         if (instance != null)
