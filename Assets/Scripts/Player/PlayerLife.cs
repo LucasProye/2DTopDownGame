@@ -1,7 +1,7 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Cinemachine;
 
 public class PlayerLife : MonoBehaviour
 {
@@ -11,18 +11,20 @@ public class PlayerLife : MonoBehaviour
 
     [SerializeField] GameObject[] _spriteLife;
 
+    private CinemachineImpulseSource _cinemachineImpulse;
+    [SerializeField] private float _impulseForce = 1;
+
     bool _isAlive = true;
     bool _isTouch = false;
 
     private void Start()
     {
+        _cinemachineImpulse = GetComponent<CinemachineImpulseSource>();
         _gameSave = GameSave.instance;
     }
 
     private void Update()
     {
-        print(_gameSave._life);
-
         if (_gameSave._life == 6)
             _spriteLife[0].SetActive(true);
         else
@@ -52,6 +54,8 @@ public class PlayerLife : MonoBehaviour
             _spriteLife[5].SetActive(true);
         else
             _spriteLife[5].SetActive(false);
+
+        Life();
     }
 
     bool _touch = false;
@@ -62,6 +66,7 @@ public class PlayerLife : MonoBehaviour
         {
             _gameSave._life -= 1;
             _animator.SetBool("Hurt", true);
+            _cinemachineImpulse.GenerateImpulseWithForce(_impulseForce);
             _touch = true;
         }
 
@@ -75,13 +80,18 @@ public class PlayerLife : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
             _touch = true;
-    }
+    }   
 
     private void Life()
     {
         if(_gameSave._life < 1)
         {
             _isAlive = false;
+        }
+
+        if(!_isAlive)
+        {
+            //Animation de mort
         }
     }
 
