@@ -36,11 +36,6 @@ public class Shoot : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-
-    }
-
     private Vector2 GetAim()
     {
         Resolution resolution = Screen.currentResolution;
