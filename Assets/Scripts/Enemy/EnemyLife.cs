@@ -7,12 +7,12 @@ public class EnemyLife : MonoBehaviour
 {
     public int _life;
     [SerializeField] private int _lifeMax = 6;
-    [SerializeField] private int _lifeMin = 0;
-    [SerializeField] private Animator _animator;
+    public int _lifeMin = 0;
+    public Animator _animator;
     [SerializeField] private MovementEnemy _enemyMovement;
     [SerializeField] GameObject[] _spriteLife;
 
-    bool _touch = false;
+    public bool _touch = false;
     public bool _isAlive = true;
 
     private void Start()
