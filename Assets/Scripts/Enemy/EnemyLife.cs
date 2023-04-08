@@ -1,3 +1,4 @@
+using Newtonsoft.Json.Serialization;
 using System.Collections;
 using UnityEngine;
 
@@ -9,7 +10,7 @@ public class EnemyLife : MonoBehaviour
     [SerializeField] private Animator _animator;
     [SerializeField] private MovementEnemy _enemyMovement;
     [SerializeField] GameObject[] _spriteLife;
-
+    [SerializeField] private GameObject _coinsDrop;
     Rigidbody2D _rigidbody2D;
     Collider2D _collider2D;
 
@@ -51,6 +52,7 @@ public class EnemyLife : MonoBehaviour
             _animator.SetBool("Dead", true);
             _rigidbody2D.isKinematic = true;
             _collider2D.isTrigger = true;
+            StartCoroutine(WaitForDropCoin());
         } 
         else
         {
@@ -76,5 +78,11 @@ public class EnemyLife : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         _animator.SetBool("HurtEnemy", false);
         _touch = false;
+    }
+
+    IEnumerator WaitForDropCoin()
+    {
+        yield return new WaitForSeconds(0.5f);
+        _coinsDrop.SetActive(true);
     }
 }

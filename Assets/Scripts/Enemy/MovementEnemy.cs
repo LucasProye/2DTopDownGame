@@ -7,12 +7,11 @@ public class MovementEnemy : MonoBehaviour
     [SerializeField] private float _distanceBetween;
     [SerializeField] private float _distance;
     [SerializeField] private EnemyLife _enemyLife;
-
     [SerializeField] Animator _animator;
 
     private void Start()
     {
-        //_animator = GetComponent<Animator>();
+        //_animator = GetComponent<Animator>();s
     }
 
     private void Update()
@@ -27,6 +26,7 @@ public class MovementEnemy : MonoBehaviour
             _animator.SetBool("Run", true);
         }
 
+
         if(_distance > _distanceBetween)
         {
             _animator.SetBool("Run", false);
@@ -36,6 +36,5 @@ public class MovementEnemy : MonoBehaviour
         {
             _speed = 0;
         }
-
     }
 }
