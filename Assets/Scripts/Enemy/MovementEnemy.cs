@@ -18,12 +18,12 @@ public class MovementEnemy : MonoBehaviour
     private void Update()
     {
         _distance = Vector2.Distance(transform.position, _player.transform.position);
-        /*Vector2 _direction = _player.transform.position - transform.position;
-        _direction.Normalize();*/
 
         if(_distance < _distanceBetween)
         {
-            transform.position = Vector2.MoveTowards(this.transform.position, _player.transform.position, _speed * Time.deltaTime);
+            /*transform.position = Vector2.MoveTowards(this.transform.position, _player.transform.position, _speed * Time.deltaTime);*/
+            Vector2 velocity = new Vector2((transform.position.x - _player.transform.position.x) * _speed, (transform.position.y - _player.transform.position.y) * _speed);
+            GetComponent<Rigidbody2D>().velocity = -velocity;
             _animator.SetBool("Run", true);
         }
 
@@ -36,5 +36,6 @@ public class MovementEnemy : MonoBehaviour
         {
             _speed = 0;
         }
+
     }
 }

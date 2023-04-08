@@ -1,22 +1,25 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class EnemyLife : MonoBehaviour
 {
     public int _life;
     [SerializeField] private int _lifeMax = 6;
     public int _lifeMin = 0;
-    public Animator _animator;
+    [SerializeField] private Animator _animator;
     [SerializeField] private MovementEnemy _enemyMovement;
     [SerializeField] GameObject[] _spriteLife;
+
+    Rigidbody2D _rigidbody2D;
+    Collider2D _collider2D;
 
     public bool _touch = false;
     public bool _isAlive = true;
 
     private void Start()
     {
+        _collider2D = GetComponent<Collider2D>();
+        _rigidbody2D = GetComponent<Rigidbody2D>();
         _life = 4;
     }
 
@@ -46,6 +49,8 @@ public class EnemyLife : MonoBehaviour
         {
             _isAlive = false;
             _animator.SetBool("Dead", true);
+            _rigidbody2D.isKinematic = true;
+            _collider2D.isTrigger = true;
         } 
         else
         {

@@ -2790,7 +2790,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2805,20 +2805,21 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.31171227, y: 0.8750925}
-      - {x: -0.48882294, y: 0.71479225}
-      - {x: -0.5660782, y: 0.61947155}
-      - {x: -0.5794163, y: 0.4663067}
-      - {x: -0.63565636, y: 0.32635593}
-      - {x: -0.5676899, y: -0.17910194}
-      - {x: -0.48882484, y: -0.8830099}
-      - {x: 0.26285553, y: -0.88301086}
-      - {x: 0.27085686, y: -0.40104198}
-      - {x: 0.63301086, y: -0.37583923}
-      - {x: 0.6370144, y: -0.18814754}
-      - {x: 0.3600788, y: 0.040816307}
-      - {x: 0.3163452, y: 0.67555904}
-      - {x: 0.11466217, y: 0.88701534}
+    - - {x: -0.3263855, y: 0.9631214}
+      - {x: -0.43851852, y: 0.8429537}
+      - {x: -0.51327515, y: 0.7588072}
+      - {x: -0.59542274, y: 0.6977196}
+      - {x: -0.6283207, y: 0.5543356}
+      - {x: -0.6845627, y: 0.36058903}
+      - {x: -0.6117039, y: -0.18888283}
+      - {x: -0.5083866, y: -0.94169617}
+      - {x: 0.2824173, y: -0.92702484}
+      - {x: 0.3099823, y: -0.47929}
+      - {x: 0.65257263, y: -0.41007328}
+      - {x: 0.6957016, y: -0.17347622}
+      - {x: 0.4187641, y: 0.06037903}
+      - {x: 0.3603592, y: 0.72446346}
+      - {x: 0.11466217, y: 0.95059204}
 --- !u!114 &5203582047622812650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2832,7 +2833,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _player: {fileID: 2634788633767559176}
-  _speed: 3
+  _speed: 1
   _distanceBetween: 10
   _distance: 10
   _enemyLife: {fileID: 6468533842508796676}
@@ -2941,19 +2942,19 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4289366629442561346}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.5
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!1 &4534102273648352512
 GameObject:
   m_ObjectHideFlags: 0

@@ -60,9 +60,25 @@ public class PlayerLife : MonoBehaviour
 
     bool _touch = false;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    /*private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Enemy") && _gameSave._life > _gameSave._lifeMin && _touch == false && _enemy._life != 0)
+        {
+            _gameSave._life -= 1;
+            _animator.SetBool("Hurt", true);
+            _cinemachineImpulse.GenerateImpulseWithForce(_impulseForce);
+            _touch = true;
+        }
+
+        if (_touch)
+        {
+            StartCoroutine(WaitForGiveDamageToPlayer());
+        }
+    }*/
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.transform.TryGetComponent(out EnemyLife _zombie) && _gameSave._life > _gameSave._lifeMin && _touch == false && _enemy._life != 0)
         {
             _gameSave._life -= 1;
             _animator.SetBool("Hurt", true);
