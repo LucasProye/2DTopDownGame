@@ -78,16 +78,16 @@ public class TimerGame : MonoBehaviour
     void ConfigurationTimerLoad()
     {
         _timerOn = true;
-        _timeLeftLoad = 1;
-        _timeLeftGame = 1;
+        _timeLeftLoad = 4;
+        _timeLeftGame = 4;
         _timerTxtLoad.text = "" + _timeLeftLoad;
     }
 
     void ConfigurationTimerGame()
     {
         _timerOn = true;
-        _timeLeftGame = 280;
-        _timeLeftLoad = 280;
+        _timeLeftGame = 15;
+        _timeLeftLoad = 15;
         _timerTxtGame.text = "" + _timerTxtGame;
     }
 
@@ -102,7 +102,7 @@ public class TimerGame : MonoBehaviour
 
             ConfigurationTimerLoad();
 
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(4);
 
             _goRoom1 = true;
         }
@@ -116,7 +116,7 @@ public class TimerGame : MonoBehaviour
 
             ConfigurationTimerGame();
 
-            yield return new WaitForSeconds(280);
+            yield return new WaitForSeconds(15);
 
             _goLoad2 = true;
         }
@@ -130,7 +130,7 @@ public class TimerGame : MonoBehaviour
 
             ConfigurationTimerLoad();
 
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(4);
 
             _goRoom2 = true;
         }
@@ -144,7 +144,7 @@ public class TimerGame : MonoBehaviour
 
             ConfigurationTimerGame();
 
-            yield return new WaitForSeconds(280);
+            yield return new WaitForSeconds(15);
 
             _goLoad3 = true;
         }
@@ -158,7 +158,7 @@ public class TimerGame : MonoBehaviour
 
             ConfigurationTimerLoad();
 
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(4);
 
             _goRoom3 = true;
         }
@@ -172,7 +172,7 @@ public class TimerGame : MonoBehaviour
 
             ConfigurationTimerGame();
 
-            yield return new WaitForSeconds(280);
+            yield return new WaitForSeconds(15);
 
             //MenuEndGame
         }

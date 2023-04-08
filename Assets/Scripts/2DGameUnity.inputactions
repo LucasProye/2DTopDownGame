@@ -87,9 +87,9 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Inventary",
+                    "name": "Use/Open",
                     "type": "Button",
-                    "id": "3048a9d1-dfed-4291-85bd-48dd208f4127",
+                    "id": "13f7435f-8726-4b26-ac5f-a7394ae6a596",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -242,12 +242,12 @@
                 },
                 {
                     "name": "",
-                    "id": "9254485e-af33-4bee-bec2-e68b6d2a7031",
-                    "path": "<Keyboard>/tab",
+                    "id": "a1be9fcc-1d29-48fe-8080-c5f89a187e41",
+                    "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Inventary",
+                    "action": "Use/Open",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
