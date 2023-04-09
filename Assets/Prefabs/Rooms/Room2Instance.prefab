@@ -155,7 +155,7 @@ MonoBehaviour:
   - {fileID: 2506874511006311354}
   - {fileID: 2100079884938429782}
   _coinsDrop: {fileID: 2963344890564886586}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -850,7 +850,7 @@ MonoBehaviour:
   - {fileID: 7753738041666862647}
   - {fileID: 567533906994440677}
   _coinsDrop: {fileID: 5849165944978141023}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -1979,7 +1979,7 @@ MonoBehaviour:
   - {fileID: 6066593435158746475}
   - {fileID: 4237741370210601747}
   _coinsDrop: {fileID: 4411856769230844104}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -2227,7 +2227,7 @@ MonoBehaviour:
   - {fileID: 1719131046334440370}
   - {fileID: 5404949351563511773}
   _coinsDrop: {fileID: 8987038099152533296}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -2444,7 +2444,7 @@ MonoBehaviour:
   - {fileID: 2025327644742490600}
   - {fileID: 1712253639577874329}
   _coinsDrop: {fileID: 6777683301108211272}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -2728,7 +2728,7 @@ MonoBehaviour:
   - {fileID: 2664286383603260819}
   - {fileID: 2369622219825669699}
   _coinsDrop: {fileID: 2772617875651679746}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -4791,7 +4791,7 @@ MonoBehaviour:
   - {fileID: 8850129316721146925}
   - {fileID: 2260914955950826159}
   _coinsDrop: {fileID: 305079752644086807}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -4916,6 +4916,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1234392283881562132}
   - {fileID: 4968814088889861832}
   - {fileID: 8244467560428927939}
   - {fileID: 4538021789863418770}
@@ -4950,12 +4951,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1805031765063964663}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.699997, y: 14.540001, z: 0.18641701}
+  m_LocalPosition: {x: 20.700003, y: -13.059999, z: 0.18641701}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3097431626712992910}
-  m_RootOrder: 30
+  m_Father: {fileID: 1444509922510241442}
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6020626621689062698
 SpriteRenderer:
@@ -5375,7 +5376,7 @@ MonoBehaviour:
   - {fileID: 6659936906563226844}
   - {fileID: 4938023589793800935}
   _coinsDrop: {fileID: 7258370319148509389}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -6037,12 +6038,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2152135748587425938}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.37899, y: 13.164, z: 0.18641701}
+  m_LocalPosition: {x: 19.02101, y: -14.436001, z: 0.18641701}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3097431626712992910}
-  m_RootOrder: 22
+  m_Father: {fileID: 1444509922510241442}
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5814527107754536605
 SpriteRenderer:
@@ -8569,7 +8570,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 2634788632220774847}
-  speed: 10
+  speed: 8
+  _audioClip: {fileID: 8300000, guid: 8eb312eccabe4cf4fb1e950b0ee3a87e, type: 3}
   _scoring: {fileID: 2918622523451226738}
 --- !u!114 &2634788633767559180
 MonoBehaviour:
@@ -8850,7 +8852,8 @@ MonoBehaviour:
   - {fileID: 5041077735606062097}
   _enemy: {fileID: 6468533842508796676}
   _impulseForce: 1
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a714a6c270e7ca048a4eba7e60c7a29f, type: 3}
+  _audioClipDeath: {fileID: 8300000, guid: bcf74efc89b04cf42a6e9979e8360693, type: 3}
 --- !u!114 &6604125090097753970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9197,12 +9200,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2696662401887954691}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.659988, y: 16.292004, z: -0.004989311}
+  m_LocalPosition: {x: 17.740011, y: -11.307997, z: -0.004989311}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3097431626712992910}
-  m_RootOrder: 20
+  m_Father: {fileID: 8577478563619732605}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4383685040069641271
 MonoBehaviour:
@@ -9218,6 +9221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerLife: {fileID: 2634788633767559168}
   _nbHeal: {fileID: 4293945531471800931}
+  _audioClip: {fileID: 8300000, guid: c601c65e78ca5494d82ea7b2c868a921, type: 3}
   _gameSave: {fileID: 780192950299835455, guid: 0a29576767c77694e9fb38c314381025, type: 3}
 --- !u!212 &7942585036837898257
 SpriteRenderer:
@@ -9908,7 +9912,7 @@ MonoBehaviour:
   - {fileID: 8600732242974588714}
   - {fileID: 2234679689684857377}
   _coinsDrop: {fileID: 3580376831821830154}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -10125,7 +10129,7 @@ MonoBehaviour:
   - {fileID: 3366072872211041572}
   - {fileID: 6687936717661452747}
   _coinsDrop: {fileID: 5345981910406484459}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -10457,12 +10461,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3035200819016793797}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.385994, y: 14.681999, z: 0.18641701}
+  m_LocalPosition: {x: 20.014006, y: -12.918001, z: 0.18641701}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3097431626712992910}
-  m_RootOrder: 27
+  m_Father: {fileID: 1444509922510241442}
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2816695441701484005
 SpriteRenderer:
@@ -11807,12 +11811,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3525931721859221855}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.9079895, y: 13.190001, z: 0.18641701}
+  m_LocalPosition: {x: 18.49201, y: -14.41, z: 0.18641701}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3097431626712992910}
-  m_RootOrder: 25
+  m_Father: {fileID: 1444509922510241442}
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5060019152192576693
 SpriteRenderer:
@@ -12064,7 +12068,7 @@ MonoBehaviour:
   - {fileID: 3438829565805752439}
   - {fileID: 6816570032894756956}
   _coinsDrop: {fileID: 2575197263991276137}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -12483,7 +12487,7 @@ MonoBehaviour:
   - {fileID: 6268401495956422922}
   - {fileID: 7621900139595699380}
   _coinsDrop: {fileID: 5763430377240603590}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -14087,7 +14091,7 @@ MonoBehaviour:
   - {fileID: 6451552916457548314}
   - {fileID: 4021429944360872792}
   _coinsDrop: {fileID: 7959843040461250098}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -14300,7 +14304,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8577478563619732605}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &732790766790678305
 MonoBehaviour:
@@ -14316,6 +14320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerLife: {fileID: 2634788633767559168}
   _nbHeal: {fileID: 4293945531471800931}
+  _audioClip: {fileID: 8300000, guid: c601c65e78ca5494d82ea7b2c868a921, type: 3}
   _gameSave: {fileID: 780192950299835455, guid: 0a29576767c77694e9fb38c314381025, type: 3}
 --- !u!212 &547251018504987931
 SpriteRenderer:
@@ -14802,7 +14807,7 @@ MonoBehaviour:
   - {fileID: 5311526351046717318}
   - {fileID: 2730556757161328294}
   _coinsDrop: {fileID: 2997301137743545721}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -15184,7 +15189,7 @@ MonoBehaviour:
   - {fileID: 2723142313897962034}
   - {fileID: 9152106123917936569}
   _coinsDrop: {fileID: 2591594580887025030}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -16502,7 +16507,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8577478563619732605}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4383676540501587307
 MonoBehaviour:
@@ -16518,6 +16523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerLife: {fileID: 2634788633767559168}
   _nbHeal: {fileID: 4293945531471800931}
+  _audioClip: {fileID: 8300000, guid: c601c65e78ca5494d82ea7b2c868a921, type: 3}
   _gameSave: {fileID: 780192950299835455, guid: 0a29576767c77694e9fb38c314381025, type: 3}
 --- !u!212 &1301447995500442582
 SpriteRenderer:
@@ -16717,7 +16723,7 @@ MonoBehaviour:
   - {fileID: 5167683980260395402}
   - {fileID: 4253443839610507146}
   _coinsDrop: {fileID: 8234649812762834860}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -16926,12 +16932,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4977064752902377303}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.843994, y: 14.252998, z: 0.18641701}
+  m_LocalPosition: {x: 19.556005, y: -13.347002, z: 0.18641701}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3097431626712992910}
-  m_RootOrder: 31
+  m_Father: {fileID: 1444509922510241442}
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8984739758220720706
 SpriteRenderer:
@@ -17508,12 +17514,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5058246011632892444}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.314995, y: 14.226997, z: 0.18641701}
+  m_LocalPosition: {x: 20.085005, y: -13.373003, z: 0.18641701}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3097431626712992910}
-  m_RootOrder: 28
+  m_Father: {fileID: 1444509922510241442}
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4514102101410556131
 SpriteRenderer:
@@ -19399,12 +19405,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5799206484851096712}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.7499924, y: 13.752003, z: 0.18641701}
+  m_LocalPosition: {x: 19.650007, y: -13.847998, z: 0.18641701}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3097431626712992910}
-  m_RootOrder: 29
+  m_Father: {fileID: 1444509922510241442}
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &37536934181643136
 SpriteRenderer:
@@ -19854,7 +19860,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8577478563619732605}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6068997517096902066
 MonoBehaviour:
@@ -19870,6 +19876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerLife: {fileID: 2634788633767559168}
   _nbHeal: {fileID: 4293945531471800931}
+  _audioClip: {fileID: 8300000, guid: c601c65e78ca5494d82ea7b2c868a921, type: 3}
   _gameSave: {fileID: 780192950299835455, guid: 0a29576767c77694e9fb38c314381025, type: 3}
 --- !u!212 &2187860124254626267
 SpriteRenderer:
@@ -19997,19 +20004,6 @@ Transform:
   - {fileID: 3634503726242075086}
   - {fileID: 9030428632966634158}
   - {fileID: 4194865915589057725}
-  - {fileID: 1234392283881562132}
-  - {fileID: 5742187801650918333}
-  - {fileID: 5603384900976538701}
-  - {fileID: 3176310550980383028}
-  - {fileID: 7852739796886063773}
-  - {fileID: 5303974614912881590}
-  - {fileID: 5283598589193378654}
-  - {fileID: 5937389523825775535}
-  - {fileID: 4566577496996016283}
-  - {fileID: 3623520449413256889}
-  - {fileID: 8408825266514220311}
-  - {fileID: 9127132205683289143}
-  - {fileID: 4815468138950996198}
   m_Father: {fileID: 2634788633255114561}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -20388,6 +20382,18 @@ Transform:
   - {fileID: 7886716161288749025}
   - {fileID: 1590466203125999367}
   - {fileID: 1685890995037120325}
+  - {fileID: 5742187801650918333}
+  - {fileID: 5603384900976538701}
+  - {fileID: 3176310550980383028}
+  - {fileID: 7852739796886063773}
+  - {fileID: 5303974614912881590}
+  - {fileID: 5283598589193378654}
+  - {fileID: 5937389523825775535}
+  - {fileID: 4566577496996016283}
+  - {fileID: 3623520449413256889}
+  - {fileID: 8408825266514220311}
+  - {fileID: 9127132205683289143}
+  - {fileID: 4815468138950996198}
   m_Father: {fileID: 2634788633255114561}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -22280,7 +22286,7 @@ MonoBehaviour:
   - {fileID: 6463335234261787154}
   - {fileID: 7063640775578545055}
   _coinsDrop: {fileID: 3439991569125868446}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -22940,12 +22946,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7325440006516908995}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.7639923, y: 13.477003, z: 0.18641701}
+  m_LocalPosition: {x: 19.636007, y: -14.122997, z: 0.18641701}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3097431626712992910}
-  m_RootOrder: 24
+  m_Father: {fileID: 1444509922510241442}
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8535560255370214882
 SpriteRenderer:
@@ -23105,12 +23111,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7343202841338833466}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.8139877, y: 12.689005, z: 0.18641701}
+  m_LocalPosition: {x: 18.586012, y: -14.9109955, z: 0.18641701}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3097431626712992910}
-  m_RootOrder: 23
+  m_Father: {fileID: 1444509922510241442}
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2318708653420935481
 SpriteRenderer:
@@ -24250,7 +24256,7 @@ MonoBehaviour:
   - {fileID: 7658284049790967477}
   - {fileID: 543173336390729907}
   _coinsDrop: {fileID: 2714636468200865139}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -25123,7 +25129,7 @@ MonoBehaviour:
   - {fileID: 2581944969841855650}
   - {fileID: 4246518301153871156}
   _coinsDrop: {fileID: 8204245058427386758}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -25340,7 +25346,7 @@ MonoBehaviour:
   - {fileID: 281869905257715370}
   - {fileID: 1877212041072556524}
   _coinsDrop: {fileID: 3065047904553564110}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -27223,12 +27229,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9212931494983596363}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.4499893, y: 13.619001, z: 0.18641701}
+  m_LocalPosition: {x: 18.95001, y: -13.980999, z: 0.18641701}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3097431626712992910}
-  m_RootOrder: 21
+  m_Father: {fileID: 1444509922510241442}
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &9100245302222316864
 SpriteRenderer:
@@ -30196,7 +30202,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 3097431626712992910}
+    m_TransformParent: {fileID: 1444509922510241442}
     m_Modifications:
     - target: {fileID: 5539535435456989649, guid: c4d2e9790852a3841a4c8be12083aa39, type: 3}
       propertyPath: m_Name
@@ -30204,15 +30210,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7307445759898825620, guid: c4d2e9790852a3841a4c8be12083aa39, type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 71
       objectReference: {fileID: 0}
     - target: {fileID: 7307445759898825620, guid: c4d2e9790852a3841a4c8be12083aa39, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20.414003
+      value: 46.814003
       objectReference: {fileID: 0}
     - target: {fileID: 7307445759898825620, guid: c4d2e9790852a3841a4c8be12083aa39, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.805
+      value: -41.405
       objectReference: {fileID: 0}
     - target: {fileID: 7307445759898825620, guid: c4d2e9790852a3841a4c8be12083aa39, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30320,7 +30326,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 3097431626712992910}
+    m_TransformParent: {fileID: 1444509922510241442}
     m_Modifications:
     - target: {fileID: 5539535435456989649, guid: c4d2e9790852a3841a4c8be12083aa39, type: 3}
       propertyPath: m_Name
@@ -30328,15 +30334,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7307445759898825620, guid: c4d2e9790852a3841a4c8be12083aa39, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 7307445759898825620, guid: c4d2e9790852a3841a4c8be12083aa39, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.350008
+      value: 45.750008
       objectReference: {fileID: 0}
     - target: {fileID: 7307445759898825620, guid: c4d2e9790852a3841a4c8be12083aa39, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -14.867998
+      value: -42.468
       objectReference: {fileID: 0}
     - target: {fileID: 7307445759898825620, guid: c4d2e9790852a3841a4c8be12083aa39, type: 3}
       propertyPath: m_LocalPosition.z

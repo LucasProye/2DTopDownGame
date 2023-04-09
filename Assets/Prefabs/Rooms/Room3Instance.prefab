@@ -120,7 +120,7 @@ MonoBehaviour:
   - {fileID: 6391956239524914696}
   - {fileID: 3430518756183730450}
   _coinsDrop: {fileID: 5322062579095091080}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -337,7 +337,7 @@ MonoBehaviour:
   - {fileID: 4126493483076168934}
   - {fileID: 8311653500758737173}
   _coinsDrop: {fileID: 3087944266698694420}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -554,7 +554,7 @@ MonoBehaviour:
   - {fileID: 8158085832655142172}
   - {fileID: 4453612240582017529}
   _coinsDrop: {fileID: 8077933015224064754}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -1306,7 +1306,7 @@ MonoBehaviour:
   - {fileID: 5323203960140316986}
   - {fileID: 7034516348622291680}
   _coinsDrop: {fileID: 209096665078319714}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -3085,7 +3085,7 @@ MonoBehaviour:
   - {fileID: 3760373735338997616}
   - {fileID: 3206730474359873019}
   _coinsDrop: {fileID: 3687067512545650924}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -5040,6 +5040,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerLife: {fileID: 2634788633767559168}
   _nbHeal: {fileID: 4293945531471800931}
+  _audioClip: {fileID: 8300000, guid: c601c65e78ca5494d82ea7b2c868a921, type: 3}
   _gameSave: {fileID: 780192950299835455, guid: 0a29576767c77694e9fb38c314381025, type: 3}
 --- !u!212 &1522140067450221155
 SpriteRenderer:
@@ -5332,6 +5333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerLife: {fileID: 2634788633767559168}
   _nbHeal: {fileID: 4293945531471800931}
+  _audioClip: {fileID: 8300000, guid: c601c65e78ca5494d82ea7b2c868a921, type: 3}
   _gameSave: {fileID: 780192950299835455, guid: 0a29576767c77694e9fb38c314381025, type: 3}
 --- !u!212 &2455938853914527040
 SpriteRenderer:
@@ -5720,7 +5722,7 @@ MonoBehaviour:
   - {fileID: 324456496670996457}
   - {fileID: 8522167513718399516}
   _coinsDrop: {fileID: 1805846252804230168}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -5937,7 +5939,7 @@ MonoBehaviour:
   - {fileID: 6075005925555225354}
   - {fileID: 5034103553483237650}
   _coinsDrop: {fileID: 7460081074079792377}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -7114,7 +7116,7 @@ MonoBehaviour:
   - {fileID: 4688040385050025760}
   - {fileID: 6518260808056509545}
   _coinsDrop: {fileID: 2855985083935201862}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -8379,7 +8381,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 2634788632220774847}
-  speed: 10
+  speed: 8
+  _audioClip: {fileID: 8300000, guid: 8eb312eccabe4cf4fb1e950b0ee3a87e, type: 3}
   _scoring: {fileID: 5524305054049930742}
 --- !u!114 &2634788633767559180
 MonoBehaviour:
@@ -8660,7 +8663,8 @@ MonoBehaviour:
   - {fileID: 5041077735606062097}
   _enemy: {fileID: 6468533842508796676}
   _impulseForce: 1
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a714a6c270e7ca048a4eba7e60c7a29f, type: 3}
+  _audioClipDeath: {fileID: 8300000, guid: bcf74efc89b04cf42a6e9979e8360693, type: 3}
 --- !u!114 &6604125090097753970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9433,7 +9437,7 @@ MonoBehaviour:
   - {fileID: 7808955698150597748}
   - {fileID: 1507820113432949878}
   _coinsDrop: {fileID: 987199004320224624}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -10008,7 +10012,7 @@ MonoBehaviour:
   - {fileID: 1571922557619008711}
   - {fileID: 1924417256518778244}
   _coinsDrop: {fileID: 5501316668781248991}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -10762,7 +10766,7 @@ MonoBehaviour:
   - {fileID: 1459303439587712384}
   - {fileID: 234518192462987385}
   _coinsDrop: {fileID: 9205370721335261559}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -11598,7 +11602,7 @@ MonoBehaviour:
   - {fileID: 5928475810554826759}
   - {fileID: 4717576932174769521}
   _coinsDrop: {fileID: 1786825986109101558}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -12768,7 +12772,7 @@ MonoBehaviour:
   - {fileID: 2559758183210915051}
   - {fileID: 5872673374475698786}
   _coinsDrop: {fileID: 8107229269415448089}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -13434,7 +13438,7 @@ MonoBehaviour:
   - {fileID: 3666037893064022287}
   - {fileID: 1466043618322000729}
   _coinsDrop: {fileID: 359252393746200488}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -13579,6 +13583,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerLife: {fileID: 2634788633767559168}
   _nbHeal: {fileID: 4293945531471800931}
+  _audioClip: {fileID: 8300000, guid: c601c65e78ca5494d82ea7b2c868a921, type: 3}
   _gameSave: {fileID: 780192950299835455, guid: 0a29576767c77694e9fb38c314381025, type: 3}
 --- !u!212 &547251018504987931
 SpriteRenderer:
@@ -13813,7 +13818,7 @@ MonoBehaviour:
   - {fileID: 5311526351046717318}
   - {fileID: 2730556757161328294}
   _coinsDrop: {fileID: 2997301137743545721}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -14834,6 +14839,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerLife: {fileID: 2634788633767559168}
   _nbHeal: {fileID: 4293945531471800931}
+  _audioClip: {fileID: 8300000, guid: c601c65e78ca5494d82ea7b2c868a921, type: 3}
   _gameSave: {fileID: 780192950299835455, guid: 0a29576767c77694e9fb38c314381025, type: 3}
 --- !u!212 &1301447995500442582
 SpriteRenderer:
@@ -15972,7 +15978,7 @@ MonoBehaviour:
   - {fileID: 988632596445237255}
   - {fileID: 8360522123758579526}
   _coinsDrop: {fileID: 6039765026843835067}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -17048,7 +17054,7 @@ MonoBehaviour:
   - {fileID: 5923179646650091107}
   - {fileID: 6313160947367077868}
   _coinsDrop: {fileID: 2011290315961602979}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -17265,7 +17271,7 @@ MonoBehaviour:
   - {fileID: 6489615230662668826}
   - {fileID: 5565178374940565741}
   _coinsDrop: {fileID: 4622396857999822102}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -17578,6 +17584,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerLife: {fileID: 2634788633767559168}
   _nbHeal: {fileID: 4293945531471800931}
+  _audioClip: {fileID: 8300000, guid: c601c65e78ca5494d82ea7b2c868a921, type: 3}
   _gameSave: {fileID: 780192950299835455, guid: 0a29576767c77694e9fb38c314381025, type: 3}
 --- !u!212 &2187860124254626267
 SpriteRenderer:
@@ -21476,7 +21483,7 @@ MonoBehaviour:
   - {fileID: 3660047828336215454}
   - {fileID: 1360161346375415619}
   _coinsDrop: {fileID: 3396332980942243002}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -22174,7 +22181,7 @@ MonoBehaviour:
   - {fileID: 1849890699206776548}
   - {fileID: 5825717634039526747}
   _coinsDrop: {fileID: 6948181505475496268}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1
@@ -22687,6 +22694,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerLife: {fileID: 2634788633767559168}
   _nbHeal: {fileID: 4293945531471800931}
+  _audioClip: {fileID: 8300000, guid: c601c65e78ca5494d82ea7b2c868a921, type: 3}
   _gameSave: {fileID: 780192950299835455, guid: 0a29576767c77694e9fb38c314381025, type: 3}
 --- !u!212 &8831748516467220562
 SpriteRenderer:
@@ -24441,6 +24449,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerLife: {fileID: 2634788633767559168}
   _nbHeal: {fileID: 4293945531471800931}
+  _audioClip: {fileID: 8300000, guid: c601c65e78ca5494d82ea7b2c868a921, type: 3}
   _gameSave: {fileID: 780192950299835455, guid: 0a29576767c77694e9fb38c314381025, type: 3}
 --- !u!212 &9139559058632801762
 SpriteRenderer:
@@ -25254,7 +25263,7 @@ MonoBehaviour:
   - {fileID: 1118335716614245543}
   - {fileID: 5440937014945286278}
   _coinsDrop: {fileID: 926876627980410624}
-  _audioClipHurt: {fileID: 8300000, guid: aa5ddebd756d2bb44aff89c33aaf9028, type: 3}
+  _audioClipHurt: {fileID: 8300000, guid: a7758d2e8242ca4438c60c3acffd2fbb, type: 3}
   _audioClipDead: {fileID: 8300000, guid: e19e039c2c923db46a66b1443dd8a97c, type: 3}
   _touch: 0
   _isAlive: 1

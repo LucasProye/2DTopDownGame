@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private GameSave _gameSave;
     Vector2 direction;
     [SerializeField] float speed = 5f;
+    [SerializeField] AudioClip _audioClip;
 
     bool _isRunning;
 
@@ -50,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
         {
             _gameSave._score += 1;
             _scoring.text = "" + _gameSave._score;
+            AudioManager._instance.PlaySFX(_audioClip);
         }
     }
 }

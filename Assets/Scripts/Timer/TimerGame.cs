@@ -168,11 +168,11 @@ public class TimerGame : MonoBehaviour
             _gm._Room3 = true;
 
             _timerOn = true;
-            _timeLeftGame = 90;
-            _timeLeftLoad = 90;
+            _timeLeftGame = 80;
+            _timeLeftLoad = 80;
             _timerTxtGame.text = "" + _timerTxtGame;
 
-            yield return new WaitForSeconds(90);
+            yield return new WaitForSeconds(80);
 
             SceneManager.LoadScene("MainMenu");
         }

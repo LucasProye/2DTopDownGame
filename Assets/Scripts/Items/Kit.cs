@@ -9,7 +9,7 @@ public class Kit : MonoBehaviour
 {
     [SerializeField] private PlayerLife _playerLife;
     [SerializeField] private Text _nbHeal;
-
+    [SerializeField] AudioClip _audioClip;
     [SerializeField] private GameSave _gameSave;
     private void Start()
     {
@@ -21,6 +21,7 @@ public class Kit : MonoBehaviour
         if (collision.CompareTag("Player") && _gameSave._life > 0 && _gameSave._life < 6)
         {
             _gameSave._life++;
+            AudioManager._instance.PlaySFX(_audioClip);
             gameObject.SetActive(false);
         }
     }

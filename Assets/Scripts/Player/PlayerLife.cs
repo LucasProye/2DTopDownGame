@@ -15,6 +15,7 @@ public class PlayerLife : MonoBehaviour
     private CinemachineImpulseSource _cinemachineImpulse;
     [SerializeField] private float _impulseForce = 1;
     [SerializeField] private AudioClip _audioClipHurt;
+    [SerializeField] private AudioClip _audioClipDeath;
 
     bool _isTouch = false;
 
@@ -59,7 +60,6 @@ public class PlayerLife : MonoBehaviour
         if (_gameSave._life == 0)
         {
             _animator.SetBool("Dead", true);
-
             StartCoroutine(WaitForDeadPlayer());
         }
 
@@ -100,7 +100,7 @@ public class PlayerLife : MonoBehaviour
 
     IEnumerator WaitForDeadPlayer()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(1.5f);
         SceneManager.LoadScene("MainMenu");
     }
 }
