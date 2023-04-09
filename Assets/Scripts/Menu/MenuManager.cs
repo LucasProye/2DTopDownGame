@@ -14,6 +14,7 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene("Game");
         _gameSave._life = 6;
+        _gameSave._score = 0;
     }
 
     public void ExitGame()
