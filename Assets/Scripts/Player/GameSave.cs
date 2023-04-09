@@ -15,6 +15,11 @@ public class GameSave : MonoBehaviour
     [Header ("ScoreCoins")]
     public int _score = 0;
 
+    private void Awake()
+    {
+        _life = 6;
+    }
+
     private void Start()
     {
         if (instance != null)
@@ -25,7 +30,6 @@ public class GameSave : MonoBehaviour
         instance = this;
         DontDestroyOnLoad(gameObject);
 
-        _life = 6;
         _score = 0;
     }
 }

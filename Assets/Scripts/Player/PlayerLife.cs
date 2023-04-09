@@ -16,7 +16,6 @@ public class PlayerLife : MonoBehaviour
     [SerializeField] private float _impulseForce = 1;
     [SerializeField] private AudioClip _audioClipHurt;
 
-    bool _isAlive = true;
     bool _isTouch = false;
 
     private void Start()
@@ -57,26 +56,16 @@ public class PlayerLife : MonoBehaviour
         else
             _spriteLife[5].SetActive(false);
 
-        Life();
+        if (_gameSave._life == 0)
+        {
+            _animator.SetBool("Dead", true);
+
+            StartCoroutine(WaitForDeadPlayer());
+        }
+
     }
 
     bool _touch = false;
-
-    /*private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Enemy") && _gameSave._life > _gameSave._lifeMin && _touch == false && _enemy._life != 0)
-        {
-            _gameSave._life -= 1;
-            _animator.SetBool("Hurt", true);
-            _cinemachineImpulse.GenerateImpulseWithForce(_impulseForce);
-            _touch = true;
-        }
-
-        if (_touch)
-        {
-            StartCoroutine(WaitForGiveDamageToPlayer());
-        }
-    }*/
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -101,20 +90,6 @@ public class PlayerLife : MonoBehaviour
             _touch = true;
     }   
 
-    private void Life()
-    {
-        if(_gameSave._life <= 0)
-        {
-            _isAlive = false;
-        }
-
-        if(!_isAlive)
-        {
-            _animator.SetBool("Dead", true);
-            StartCoroutine(WaitForLoseScreen());
-        }
-    }
-
     IEnumerator WaitForGiveDamageToPlayer()
     {
         if(_touch)
@@ -123,9 +98,9 @@ public class PlayerLife : MonoBehaviour
             _animator.SetBool("Hurt", false);
     }
 
-    IEnumerator WaitForLoseScreen()
+    IEnumerator WaitForDeadPlayer()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1);
         SceneManager.LoadScene("MainMenu");
     }
 }

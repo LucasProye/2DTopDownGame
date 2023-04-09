@@ -1,9 +1,8 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-using Unity.VisualScripting;
+using UnityEngine.SceneManagement;
 
 public class TimerGame : MonoBehaviour
 {
@@ -83,14 +82,6 @@ public class TimerGame : MonoBehaviour
         _timerTxtLoad.text = "" + _timeLeftLoad;
     }
 
-    void ConfigurationTimerGame()
-    {
-        _timerOn = true;
-        _timeLeftGame = 15;
-        _timeLeftLoad = 15;
-        _timerTxtGame.text = "" + _timerTxtGame;
-    }
-
     IEnumerator WaitForPrintRoom()
     {
         if(_goLoad1)
@@ -114,9 +105,12 @@ public class TimerGame : MonoBehaviour
             _goRoom1 = false;
             _gm._Room1 = true;
 
-            ConfigurationTimerGame();
+            _timerOn = true;
+            _timeLeftGame = 30;
+            _timeLeftLoad = 30;
+            _timerTxtGame.text = "" + _timerTxtGame;
 
-            yield return new WaitForSeconds(15);
+            yield return new WaitForSeconds(30);
 
             _goLoad2 = true;
         }
@@ -142,9 +136,12 @@ public class TimerGame : MonoBehaviour
             _goRoom2 = false;
             _gm._Room2 = true;
 
-            ConfigurationTimerGame();
+            _timerOn = true;
+            _timeLeftGame = 65;
+            _timeLeftLoad = 65;
+            _timerTxtGame.text = "" + _timerTxtGame;
 
-            yield return new WaitForSeconds(15);
+            yield return new WaitForSeconds(65);
 
             _goLoad3 = true;
         }
@@ -170,11 +167,14 @@ public class TimerGame : MonoBehaviour
             _goRoom3 = false;
             _gm._Room3 = true;
 
-            ConfigurationTimerGame();
+            _timerOn = true;
+            _timeLeftGame = 90;
+            _timeLeftLoad = 90;
+            _timerTxtGame.text = "" + _timerTxtGame;
 
-            yield return new WaitForSeconds(15);
+            yield return new WaitForSeconds(90);
 
-            //MenuEndGame
+            SceneManager.LoadScene("MainMenu");
         }
     }
 }

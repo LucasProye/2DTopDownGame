@@ -3,9 +3,17 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
+    private GameSave _gameSave;
+
+    private void Start()
+    {
+        _gameSave = GameSave.instance;
+    }
+
     public void StartGame()
     {
         SceneManager.LoadScene("Game");
+        _gameSave._life = 6;
     }
 
     public void ExitGame()
