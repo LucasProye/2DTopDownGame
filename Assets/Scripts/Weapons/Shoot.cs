@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class Shoot : MonoBehaviour
 {
     bool _attack;
-
+    [SerializeField] private AudioClip _audioClip;
     private Mouse _mouse;
 
     [SerializeField] Animator _bulletAnimation;
@@ -33,6 +33,7 @@ public class Shoot : MonoBehaviour
             Bullet newBullet = Instantiate(_bullet).GetComponent<Bullet>();
             newBullet.transform.position = _positionBullet.position;
             newBullet.SetDirection(direction);
+            AudioManager._instance.PlaySFX(_audioClip);
         }
     }
 

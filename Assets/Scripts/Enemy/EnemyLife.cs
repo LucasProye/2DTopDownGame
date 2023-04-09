@@ -13,6 +13,8 @@ public class EnemyLife : MonoBehaviour
     [SerializeField] private GameObject _coinsDrop;
     Rigidbody2D _rigidbody2D;
     Collider2D _collider2D;
+    [SerializeField] private AudioClip _audioClipHurt;
+    [SerializeField] private AudioClip _audioClipDead;
 
     public bool _touch = false;
     public bool _isAlive = true;
@@ -48,6 +50,7 @@ public class EnemyLife : MonoBehaviour
 
         if(_life == 0)
         {
+            //AudioManager._instance.PlaySFX(_audioClipDead);
             _isAlive = false;
             _animator.SetBool("Dead", true);
             _rigidbody2D.isKinematic = true;
@@ -69,6 +72,7 @@ public class EnemyLife : MonoBehaviour
         {
             _life -= 1;
             _animator.SetBool("HurtEnemy", true);
+            AudioManager._instance.PlaySFX(_audioClipHurt);
             _touch = true;
         }                
     }

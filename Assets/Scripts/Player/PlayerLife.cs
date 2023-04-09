@@ -2,17 +2,19 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using Cinemachine;
+using UnityEngine.SceneManagement;
 
 public class PlayerLife : MonoBehaviour
 {
     private GameSave _gameSave;
 
     [SerializeField] private Animator _animator;
-
+    [SerializeField] private GameManager _gameManager;
     [SerializeField] GameObject[] _spriteLife;
     [SerializeField] EnemyLife _enemy;
     private CinemachineImpulseSource _cinemachineImpulse;
     [SerializeField] private float _impulseForce = 1;
+    [SerializeField] private AudioClip _audioClipHurt;
 
     bool _isAlive = true;
     bool _isTouch = false;
@@ -82,6 +84,7 @@ public class PlayerLife : MonoBehaviour
         {
             _gameSave._life -= 1;
             _animator.SetBool("Hurt", true);
+            AudioManager._instance.PlaySFX(_audioClipHurt);
             _cinemachineImpulse.GenerateImpulseWithForce(_impulseForce);
             _touch = true;
         }
@@ -100,14 +103,15 @@ public class PlayerLife : MonoBehaviour
 
     private void Life()
     {
-        if(_gameSave._life < 1)
+        if(_gameSave._life <= 0)
         {
             _isAlive = false;
         }
 
         if(!_isAlive)
         {
-            //Animation de mort
+            _animator.SetBool("Dead", true);
+            StartCoroutine(WaitForLoseScreen());
         }
     }
 
@@ -117,5 +121,11 @@ public class PlayerLife : MonoBehaviour
             yield return new WaitForSeconds(2);
             _touch = false;
             _animator.SetBool("Hurt", false);
+    }
+
+    IEnumerator WaitForLoseScreen()
+    {
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene("MainMenu");
     }
 }

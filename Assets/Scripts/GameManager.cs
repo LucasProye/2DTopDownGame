@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 {
     private TimerGame _timerGame;
     public Vector3 _placementLevel = new Vector3(0, 0, 0);
-    GameObject loadedLevel;
+    public GameObject _loadedLevel;
 
     [Header ("Loading Screen")]
     [SerializeField] private GameObject _load;
@@ -52,7 +52,7 @@ public class GameManager : MonoBehaviour
             _load.SetActive(false);
             _Room1 = false;
 
-            loadedLevel = Instantiate(_level[0], _placementLevel, Quaternion.identity);
+            _loadedLevel = Instantiate(_level[0], _placementLevel, Quaternion.identity);
         }
 
         // Load2 Actif
@@ -60,7 +60,7 @@ public class GameManager : MonoBehaviour
         {
             _load.SetActive(true);
             _LoadRoom2 = false;
-            Destroy(loadedLevel);
+            Destroy(_loadedLevel);
         }
 
         // Level2 Instantiate
@@ -69,7 +69,7 @@ public class GameManager : MonoBehaviour
             _load.SetActive(false);
             _Room2 = false;
 
-            loadedLevel = Instantiate(_level[1], _placementLevel, Quaternion.identity);
+            _loadedLevel = Instantiate(_level[1], _placementLevel, Quaternion.identity);
         }
 
         // Load3 Actif
@@ -77,7 +77,7 @@ public class GameManager : MonoBehaviour
         {
             _load.SetActive(true);
             _LoadRoom3 = false;
-            Destroy(loadedLevel);
+            Destroy(_loadedLevel);
         }
 
         // Level2 Instantiate
@@ -86,7 +86,7 @@ public class GameManager : MonoBehaviour
             _load.SetActive(false);
             _Room3 = false;
 
-            loadedLevel = Instantiate(_level[2], _placementLevel, Quaternion.identity);
+            _loadedLevel = Instantiate(_level[2], _placementLevel, Quaternion.identity);
         }
     }
 }
