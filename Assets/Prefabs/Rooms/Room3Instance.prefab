@@ -1238,7 +1238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2634788633255114561}
   m_Layer: 0
-  m_Name: ___ ROOM 1 ___
+  m_Name: Room3Instance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

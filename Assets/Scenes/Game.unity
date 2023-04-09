@@ -559,8 +559,8 @@ MonoBehaviour:
   _LoadRoom3: 0
   _LoadRoom4: 0
   _level:
-  - {fileID: 2634788633255114560, guid: 322aaec9e8452c0428a561535979ee1e, type: 3}
-  - {fileID: 2634788633255114560, guid: 322aaec9e8452c0428a561535979ee1e, type: 3}
+  - {fileID: 2634788633255114560, guid: 2f9a57ae670a6b14fb873baab3bb0e59, type: 3}
+  - {fileID: 2634788633255114560, guid: 2f9a57ae670a6b14fb873baab3bb0e59, type: 3}
   - {fileID: 2634788633255114560, guid: 322aaec9e8452c0428a561535979ee1e, type: 3}
   _Room1: 0
   _Room2: 0
