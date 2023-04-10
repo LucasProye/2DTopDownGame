@@ -1,7 +1,5 @@
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.InputSystem.EnhancedTouch;
 
 public class Bullet : MonoBehaviour
 {
@@ -42,17 +40,6 @@ public class Bullet : MonoBehaviour
 
         }
     }
-
-    /*private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(collision.gameObject.TryGetComponent(out EnemyLife _enemyLife) && _enemyLife._life > _enemyLife._lifeMin && _enemyLife._touch == false)
-        {
-            _enemyLife = GetComponent<EnemyLife>();
-            _enemyLife._life -= 1;
-            _enemyLife._animator.SetBool("HurtEnemy", true);
-            _enemyLife._touch = true;
-        }
-    }*/
 
     IEnumerator WaitForDestroyBullet()
     {

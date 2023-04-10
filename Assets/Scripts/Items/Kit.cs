@@ -1,8 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Threading;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class Kit : MonoBehaviour

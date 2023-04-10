@@ -1,13 +1,11 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 using Cinemachine;
 using UnityEngine.SceneManagement;
 
 public class PlayerLife : MonoBehaviour
 {
     private GameSave _gameSave;
-
     [SerializeField] private Animator _animator;
     [SerializeField] private GameManager _gameManager;
     [SerializeField] GameObject[] _spriteLife;

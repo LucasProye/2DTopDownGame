@@ -1,4 +1,3 @@
-using Newtonsoft.Json.Serialization;
 using System.Collections;
 using UnityEngine;
 
@@ -50,7 +49,6 @@ public class EnemyLife : MonoBehaviour
 
         if(_life == 0)
         {
-            //AudioManager._instance.PlaySFX(_audioClipDead);
             _isAlive = false;
             _animator.SetBool("Dead", true);
             _rigidbody2D.isKinematic = true;

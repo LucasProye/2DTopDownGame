@@ -1,11 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class Shoot : MonoBehaviour
 {
-    bool _attack;
     [SerializeField] private AudioClip _audioClip;
     private Mouse _mouse;
 
@@ -14,8 +11,6 @@ public class Shoot : MonoBehaviour
     [SerializeField] Transform _positionBullet;
     [SerializeField] Transform _bullet;
     [SerializeField] float _bulletSpeed = 20f;
-    Vector2 _worldPosition;
-    float _lookAngle;
 
     private void Awake()
     {

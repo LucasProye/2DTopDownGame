@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D playerRigidbody2D;
     [SerializeField] Animator _animator;
     private GameSave _gameSave;
-    Vector2 direction;
+    Vector2 _direction;
     [SerializeField] float speed = 5f;
     [SerializeField] AudioClip _audioClip;
 
@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Move(InputAction.CallbackContext context)
     {
-        direction = context.ReadValue<Vector2>();
+        _direction = context.ReadValue<Vector2>();
         _isRunning = context.performed;
         if(_isRunning)
         {
@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        playerRigidbody2D.velocity = direction * speed;
+        playerRigidbody2D.velocity = _direction * speed;
     }
 
     private void OnTriggerEnter2D(Collider2D other) 
